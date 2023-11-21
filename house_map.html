@@ -1,0 +1,2362 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_df979d4bf28945888310f170ee8e098b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_df979d4bf28945888310f170ee8e098b" ></div>
+        
+</body>
+<script>    
+    
+            var map_df979d4bf28945888310f170ee8e098b = L.map(
+                "map_df979d4bf28945888310f170ee8e098b",
+                {
+                    center: [-22.9068, -43.1729],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_05cb9a498b814300b47c4e09ee2c1f47 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+            var circle_marker_4eec4ce0c9be4d0b97c8f138c970adda = L.circleMarker(
+                [-16.708196, -49.080108],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_6f5333a68ee9465e964a4b77194ac047 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9b166ea3dba4a7386f66f42f76f1cb7 = $(`<div id="html_f9b166ea3dba4a7386f66f42f76f1cb7" style="width: 100.0%; height: 100.0%;">Place: Senador Canedo<br>State: Goiás<br>Price: BRL145000.0<br>SqM: 67<br>XY: -16.708196,-49.080108<br>ID: 0089badfd737c52dbc367a962618e2eaf2c0adba<br></div>`)[0];
+            popup_6f5333a68ee9465e964a4b77194ac047.setContent(html_f9b166ea3dba4a7386f66f42f76f1cb7);
+        
+
+        circle_marker_4eec4ce0c9be4d0b97c8f138c970adda.bindPopup(popup_6f5333a68ee9465e964a4b77194ac047)
+        ;
+
+        
+    
+    
+            var circle_marker_2c1fff4f77784dcebe16747cf772f9f0 = L.circleMarker(
+                [-16.801973999999998, -49.324109],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_d3ec2c6a595a45d6a9b88c0cca515efe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47c5de4d92e3420cb61dff9b098c7ebd = $(`<div id="html_47c5de4d92e3420cb61dff9b098c7ebd" style="width: 100.0%; height: 100.0%;">Place: Aparecida de Goiânia<br>State: Goiás<br>Price: BRL350000.0<br>SqM: 106<br>XY: -16.801973999999998,-49.324109<br>ID: 567c2fb46e86ba128e57966b5b74e10b427621b5<br></div>`)[0];
+            popup_d3ec2c6a595a45d6a9b88c0cca515efe.setContent(html_47c5de4d92e3420cb61dff9b098c7ebd);
+        
+
+        circle_marker_2c1fff4f77784dcebe16747cf772f9f0.bindPopup(popup_d3ec2c6a595a45d6a9b88c0cca515efe)
+        ;
+
+        
+    
+    
+            var circle_marker_453737444c4541f98d5dca88674c4d08 = L.circleMarker(
+                [-22.9517291, -43.3282709],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_be2c57b7c0b54141a4bac2d8d6dc7803 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_179a06bb2ef64e2bb071134b4f149324 = $(`<div id="html_179a06bb2ef64e2bb071134b4f149324" style="width: 100.0%; height: 100.0%;">Place: Anil<br>State: Rio de Janeiro<br>Price: BRL1700000.0<br>SqM: 414<br>XY: -22.9517291,-43.3282709<br>ID: 0cd71ebe7c9e7de08f9a46543b3979b7728a9025<br></div>`)[0];
+            popup_be2c57b7c0b54141a4bac2d8d6dc7803.setContent(html_179a06bb2ef64e2bb071134b4f149324);
+        
+
+        circle_marker_453737444c4541f98d5dca88674c4d08.bindPopup(popup_be2c57b7c0b54141a4bac2d8d6dc7803)
+        ;
+
+        
+    
+    
+            var circle_marker_eb5d9879d80f49ff84706b8efa8f62c9 = L.circleMarker(
+                [-22.9578436, -43.334925899999995],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_3c668d063cae4a32845e438a4d018626 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad63ccedbf0e448fb850028bf710f33e = $(`<div id="html_ad63ccedbf0e448fb850028bf710f33e" style="width: 100.0%; height: 100.0%;">Place: Anil<br>State: Rio de Janeiro<br>Price: BRL1495000.0<br>SqM: 520<br>XY: -22.9578436,-43.334925899999995<br>ID: da37705ea9b93f87085781f75586a4f78129fd1b<br></div>`)[0];
+            popup_3c668d063cae4a32845e438a4d018626.setContent(html_ad63ccedbf0e448fb850028bf710f33e);
+        
+
+        circle_marker_eb5d9879d80f49ff84706b8efa8f62c9.bindPopup(popup_3c668d063cae4a32845e438a4d018626)
+        ;
+
+        
+    
+    
+            var circle_marker_2463387505124c7e8e45943f1bcc358f = L.circleMarker(
+                [-22.962656699999997, -43.3318875],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_a8f586b53b154f30874a2b20a4a1260c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d93b1d0230df4c24ac668d0e3c24b19b = $(`<div id="html_d93b1d0230df4c24ac668d0e3c24b19b" style="width: 100.0%; height: 100.0%;">Place: Anil<br>State: Rio de Janeiro<br>Price: BRL2500000.0<br>SqM: 709<br>XY: -22.962656699999997,-43.3318875<br>ID: 42d84437311e25e4c3a56290f1bc90746b826461<br></div>`)[0];
+            popup_a8f586b53b154f30874a2b20a4a1260c.setContent(html_d93b1d0230df4c24ac668d0e3c24b19b);
+        
+
+        circle_marker_2463387505124c7e8e45943f1bcc358f.bindPopup(popup_a8f586b53b154f30874a2b20a4a1260c)
+        ;
+
+        
+    
+    
+            var circle_marker_8dc9ea3ae1774df1923507a423e83b28 = L.circleMarker(
+                [-22.948304699999998, -43.16553029999999],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_ddd44130deeb4743817fb6a70ed18db6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9845d7cc1e8c43adae7954ba7944bdcf = $(`<div id="html_9845d7cc1e8c43adae7954ba7944bdcf" style="width: 100.0%; height: 100.0%;">Place: Urca<br>State: Rio de Janeiro<br>Price: BRL3200000.0<br>SqM: 416<br>XY: -22.948304699999998,-43.16553029999999<br>ID: d9d32c8cf8d369338ebae2dedd771b1962c5b4c9<br></div>`)[0];
+            popup_ddd44130deeb4743817fb6a70ed18db6.setContent(html_9845d7cc1e8c43adae7954ba7944bdcf);
+        
+
+        circle_marker_8dc9ea3ae1774df1923507a423e83b28.bindPopup(popup_ddd44130deeb4743817fb6a70ed18db6)
+        ;
+
+        
+    
+    
+            var circle_marker_59838621b55f40b8bc1fe66065c9c64f = L.circleMarker(
+                [-22.9502163, -43.1769028],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_da9359581c7442ce88189236aae770d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7dfc0b79740f453a8d2db609f432be7d = $(`<div id="html_7dfc0b79740f453a8d2db609f432be7d" style="width: 100.0%; height: 100.0%;">Place: Urca<br>State: Rio de Janeiro<br>Price: BRL4500000.0<br>SqM: 270<br>XY: -22.9502163,-43.1769028<br>ID: ae8545c84a848e5edbd7cb906433c48212d9802b<br></div>`)[0];
+            popup_da9359581c7442ce88189236aae770d9.setContent(html_7dfc0b79740f453a8d2db609f432be7d);
+        
+
+        circle_marker_59838621b55f40b8bc1fe66065c9c64f.bindPopup(popup_da9359581c7442ce88189236aae770d9)
+        ;
+
+        
+    
+    
+            var circle_marker_af8c6c0eed1049ec9937342746db2fea = L.circleMarker(
+                [-22.3506082, -42.325449600000006],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_55c72b9092d448069e7f49be8b84bff8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5434bfb008d8497f80c7bfb8c1948d4e = $(`<div id="html_5434bfb008d8497f80c7bfb8c1948d4e" style="width: 100.0%; height: 100.0%;">Place: Lumiar<br>State: Rio de Janeiro<br>Price: BRL360000.0<br>SqM: 100<br>XY: -22.3506082,-42.325449600000006<br>ID: 659181eeac1727c7f4257c847970f92d56f255f7<br></div>`)[0];
+            popup_55c72b9092d448069e7f49be8b84bff8.setContent(html_5434bfb008d8497f80c7bfb8c1948d4e);
+        
+
+        circle_marker_af8c6c0eed1049ec9937342746db2fea.bindPopup(popup_55c72b9092d448069e7f49be8b84bff8)
+        ;
+
+        
+    
+    
+            var circle_marker_344fcaebb34042fdbea8828a8c126a3f = L.circleMarker(
+                [-22.965182000000002, -43.2002105],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_761c0e4ef5ea45c2b40cdca99e70dfb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4672b23dab1c4bfab1f1497c20795179 = $(`<div id="html_4672b23dab1c4bfab1f1497c20795179" style="width: 100.0%; height: 100.0%;">Place: Lagoa<br>State: Rio de Janeiro<br>Price: BRL4200000.0<br>SqM: 260<br>XY: -22.965182000000002,-43.2002105<br>ID: 324211b7a44e3a4e954300d3dcb7034f878bdcb3<br></div>`)[0];
+            popup_761c0e4ef5ea45c2b40cdca99e70dfb9.setContent(html_4672b23dab1c4bfab1f1497c20795179);
+        
+
+        circle_marker_344fcaebb34042fdbea8828a8c126a3f.bindPopup(popup_761c0e4ef5ea45c2b40cdca99e70dfb9)
+        ;
+
+        
+    
+    
+            var circle_marker_6f3cf6ec94de4714ad946b1c0d170656 = L.circleMarker(
+                [-22.756390600000003, -41.889041999999996],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_9d778848f50142cbbe888cff5cb5f1a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66df0ad6d0fa49b48953bb77761b9449 = $(`<div id="html_66df0ad6d0fa49b48953bb77761b9449" style="width: 100.0%; height: 100.0%;">Place: Armação dos Búzios<br>State: Rio de Janeiro<br>Price: BRL1100000.0<br>SqM: 150<br>XY: -22.756390600000003,-41.889041999999996<br>ID: 4db4ea6eacc40f86211cfd1591ef0a2fa98d8e41<br></div>`)[0];
+            popup_9d778848f50142cbbe888cff5cb5f1a3.setContent(html_66df0ad6d0fa49b48953bb77761b9449);
+        
+
+        circle_marker_6f3cf6ec94de4714ad946b1c0d170656.bindPopup(popup_9d778848f50142cbbe888cff5cb5f1a3)
+        ;
+
+        
+    
+    
+            var circle_marker_74cf6a738b964dc58060b57a4eeb30b4 = L.circleMarker(
+                [-22.9266486, -43.1804645],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_be8e6c32335a4b769ad0172009a0198f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eefe1c720e824b088cdfeb439ec72026 = $(`<div id="html_eefe1c720e824b088cdfeb439ec72026" style="width: 100.0%; height: 100.0%;">Place: Catete<br>State: Rio de Janeiro<br>Price: BRL2450000.0<br>SqM: 260<br>XY: -22.9266486,-43.1804645<br>ID: 1d4227c2e31d84aa594266590be7ea58fe97ffee<br></div>`)[0];
+            popup_be8e6c32335a4b769ad0172009a0198f.setContent(html_eefe1c720e824b088cdfeb439ec72026);
+        
+
+        circle_marker_74cf6a738b964dc58060b57a4eeb30b4.bindPopup(popup_be8e6c32335a4b769ad0172009a0198f)
+        ;
+
+        
+    
+    
+            var circle_marker_3dfac41d8ec44d5aae783ded27a3bed6 = L.circleMarker(
+                [-22.9158917, -43.1787042],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_e1f0596332d64c33855b6e5a2f265970 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a894ac8cef74eabae81f3593cc209c8 = $(`<div id="html_3a894ac8cef74eabae81f3593cc209c8" style="width: 100.0%; height: 100.0%;">Place: Centro<br>State: Rio de Janeiro<br>Price: BRL700000.0<br>SqM: 100<br>XY: -22.9158917,-43.1787042<br>ID: eb9d08fa55348f069862e55184280324013f7ef9<br></div>`)[0];
+            popup_e1f0596332d64c33855b6e5a2f265970.setContent(html_3a894ac8cef74eabae81f3593cc209c8);
+        
+
+        circle_marker_3dfac41d8ec44d5aae783ded27a3bed6.bindPopup(popup_e1f0596332d64c33855b6e5a2f265970)
+        ;
+
+        
+    
+    
+            var circle_marker_e4a96491bd8a42e4885e89119efe2715 = L.circleMarker(
+                [-22.974360600000004, -43.2287052],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_dbccc4340ac74944a1bcff305b50b8cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8316a05f1474d46a385d431774dc30f = $(`<div id="html_a8316a05f1474d46a385d431774dc30f" style="width: 100.0%; height: 100.0%;">Place: Gávea<br>State: Rio de Janeiro<br>Price: BRL7000000.0<br>SqM: 400<br>XY: -22.974360600000004,-43.2287052<br>ID: 1bb93c0d9fc2b92f885d4ffab6be78b66a10b7b5<br></div>`)[0];
+            popup_dbccc4340ac74944a1bcff305b50b8cb.setContent(html_a8316a05f1474d46a385d431774dc30f);
+        
+
+        circle_marker_e4a96491bd8a42e4885e89119efe2715.bindPopup(popup_dbccc4340ac74944a1bcff305b50b8cb)
+        ;
+
+        
+    
+    
+            var circle_marker_9ff3bb5f7b824f50b33e12a41911237e = L.circleMarker(
+                [-22.982943300000002, -43.2474808],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_103b675db7f944f98098ef76e801ceb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2eff9844bc604a9e8a339fe66d5ae5f1 = $(`<div id="html_2eff9844bc604a9e8a339fe66d5ae5f1" style="width: 100.0%; height: 100.0%;">Place: Gávea<br>State: Rio de Janeiro<br>Price: BRL5500000.0<br>SqM: 424<br>XY: -22.982943300000002,-43.2474808<br>ID: 4d572096ebc17751d08ae68c3a6b3ee6fb2ddae2<br></div>`)[0];
+            popup_103b675db7f944f98098ef76e801ceb3.setContent(html_2eff9844bc604a9e8a339fe66d5ae5f1);
+        
+
+        circle_marker_9ff3bb5f7b824f50b33e12a41911237e.bindPopup(popup_103b675db7f944f98098ef76e801ceb3)
+        ;
+
+        
+    
+    
+            var circle_marker_058d0804e68949b5b061838a2f70a776 = L.circleMarker(
+                [-22.9856316, -43.2404992],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_5d5dee24b0e6496ea55c3d840606bc6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7cb9cf9784f74557b4781a0b6ead5fe6 = $(`<div id="html_7cb9cf9784f74557b4781a0b6ead5fe6" style="width: 100.0%; height: 100.0%;">Place: Gávea<br>State: Rio de Janeiro<br>Price: BRL6500000.0<br>SqM: 1200<br>XY: -22.9856316,-43.2404992<br>ID: fbd0da0c8c61ed218bfe416a8431af9cc1aa85e5<br></div>`)[0];
+            popup_5d5dee24b0e6496ea55c3d840606bc6f.setContent(html_7cb9cf9784f74557b4781a0b6ead5fe6);
+        
+
+        circle_marker_058d0804e68949b5b061838a2f70a776.bindPopup(popup_5d5dee24b0e6496ea55c3d840606bc6f)
+        ;
+
+        
+    
+    
+            var circle_marker_8e94415776c94e5382a68d02d75a2aef = L.circleMarker(
+                [-22.982812, -43.2322766],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_6d14cea4e8104769a4c8c5c702671770 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea5919823596430186ad98ae6191a5ce = $(`<div id="html_ea5919823596430186ad98ae6191a5ce" style="width: 100.0%; height: 100.0%;">Place: Leblon<br>State: Rio de Janeiro<br>Price: BRL18000000.0<br>SqM: 499<br>XY: -22.982812,-43.2322766<br>ID: 73d831622edefcd809673c3f2ddfaf84aee38e5a<br></div>`)[0];
+            popup_6d14cea4e8104769a4c8c5c702671770.setContent(html_ea5919823596430186ad98ae6191a5ce);
+        
+
+        circle_marker_8e94415776c94e5382a68d02d75a2aef.bindPopup(popup_6d14cea4e8104769a4c8c5c702671770)
+        ;
+
+        
+    
+    
+            var circle_marker_d1d9fc9be39e4cd69090b4c54dcb186a = L.circleMarker(
+                [-22.9812522, -43.2297484],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_bee0eaeef83a4f2b852beb43809697fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c9b0beaca2d4b88b2088db4efbc43c4 = $(`<div id="html_0c9b0beaca2d4b88b2088db4efbc43c4" style="width: 100.0%; height: 100.0%;">Place: Leblon<br>State: Rio de Janeiro<br>Price: BRL16000000.0<br>SqM: 500<br>XY: -22.9812522,-43.2297484<br>ID: c15065d43677bfa651e5940e8177223e0ccaf4cd<br></div>`)[0];
+            popup_bee0eaeef83a4f2b852beb43809697fa.setContent(html_0c9b0beaca2d4b88b2088db4efbc43c4);
+        
+
+        circle_marker_d1d9fc9be39e4cd69090b4c54dcb186a.bindPopup(popup_bee0eaeef83a4f2b852beb43809697fa)
+        ;
+
+        
+    
+    
+            var circle_marker_8d9660c460d64e81822f6fbdd6ca9590 = L.circleMarker(
+                [-22.910843300000003, -43.289024100000006],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_928fbc05829d491fa58c758590f6cf54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bd12df2498940bf808fab93f0925fa5 = $(`<div id="html_7bd12df2498940bf808fab93f0925fa5" style="width: 100.0%; height: 100.0%;">Place: Méier<br>State: Rio de Janeiro<br>Price: BRL340000.0<br>SqM: 65<br>XY: -22.910843300000003,-43.289024100000006<br>ID: 0e28d29fba1637ef883ad4de8074c484927cb7c1<br></div>`)[0];
+            popup_928fbc05829d491fa58c758590f6cf54.setContent(html_7bd12df2498940bf808fab93f0925fa5);
+        
+
+        circle_marker_8d9660c460d64e81822f6fbdd6ca9590.bindPopup(popup_928fbc05829d491fa58c758590f6cf54)
+        ;
+
+        
+    
+    
+            var circle_marker_b60aa5cdeb3b4a6fad0342393ea9ded4 = L.circleMarker(
+                [-22.910843300000003, -43.289024100000006],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_af74587318384f4e9f2ec3b9f28b272c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7530ec6ffe6a483c978ae4d64a24b305 = $(`<div id="html_7530ec6ffe6a483c978ae4d64a24b305" style="width: 100.0%; height: 100.0%;">Place: Méier<br>State: Rio de Janeiro<br>Price: BRL400000.0<br>SqM: 77<br>XY: -22.910843300000003,-43.289024100000006<br>ID: 4ecab567cf986c29e559ad107117c1c9e38fc95a<br></div>`)[0];
+            popup_af74587318384f4e9f2ec3b9f28b272c.setContent(html_7530ec6ffe6a483c978ae4d64a24b305);
+        
+
+        circle_marker_b60aa5cdeb3b4a6fad0342393ea9ded4.bindPopup(popup_af74587318384f4e9f2ec3b9f28b272c)
+        ;
+
+        
+    
+    
+            var circle_marker_f16bbb220a2d4bb686aa3996e7adc97c = L.circleMarker(
+                [-22.910843300000003, -43.289024100000006],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_6d58d096b95f4d858c6b0acaed1e106b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c48ae5250abd40febfa8cc81ae82e1c7 = $(`<div id="html_c48ae5250abd40febfa8cc81ae82e1c7" style="width: 100.0%; height: 100.0%;">Place: Méier<br>State: Rio de Janeiro<br>Price: BRL410000.0<br>SqM: 65<br>XY: -22.910843300000003,-43.289024100000006<br>ID: e5f232d574dfea72def801b3b6f9f92c28559aea<br></div>`)[0];
+            popup_6d58d096b95f4d858c6b0acaed1e106b.setContent(html_c48ae5250abd40febfa8cc81ae82e1c7);
+        
+
+        circle_marker_f16bbb220a2d4bb686aa3996e7adc97c.bindPopup(popup_6d58d096b95f4d858c6b0acaed1e106b)
+        ;
+
+        
+    
+    
+            var circle_marker_7461ddaaed554d788761565996a9536c = L.circleMarker(
+                [-22.8987913, -43.1849085],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_4d29db8109fc48e0a51c9bf1e3659ba8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0219ae0cac2f464e8a1b17de8532d83a = $(`<div id="html_0219ae0cac2f464e8a1b17de8532d83a" style="width: 100.0%; height: 100.0%;">Place: Saúde<br>State: Rio de Janeiro<br>Price: BRL1200000.0<br>SqM: 344<br>XY: -22.8987913,-43.1849085<br>ID: 17676942ac043c067b0f9f1fd1132aa2e2d431ad<br></div>`)[0];
+            popup_4d29db8109fc48e0a51c9bf1e3659ba8.setContent(html_0219ae0cac2f464e8a1b17de8532d83a);
+        
+
+        circle_marker_7461ddaaed554d788761565996a9536c.bindPopup(popup_4d29db8109fc48e0a51c9bf1e3659ba8)
+        ;
+
+        
+    
+    
+            var circle_marker_54d4c981ee1942898552591e00947666 = L.circleMarker(
+                [-22.925012, -43.2404407],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_e4ba56876c824a19bc8ea91331835906 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e05afe4357874202bd1d189997303def = $(`<div id="html_e05afe4357874202bd1d189997303def" style="width: 100.0%; height: 100.0%;">Place: Tijuca<br>State: Rio de Janeiro<br>Price: BRL620000.0<br>SqM: 170<br>XY: -22.925012,-43.2404407<br>ID: db469d90645418bb924f77a9189ca33e2be81c27<br></div>`)[0];
+            popup_e4ba56876c824a19bc8ea91331835906.setContent(html_e05afe4357874202bd1d189997303def);
+        
+
+        circle_marker_54d4c981ee1942898552591e00947666.bindPopup(popup_e4ba56876c824a19bc8ea91331835906)
+        ;
+
+        
+    
+    
+            var circle_marker_198d2ac73eea4b1bbc4581f2be3617ec = L.circleMarker(
+                [-22.927086499999998, -43.236957000000004],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_f73de049e75b4beeb5b99178a39e2fa3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51e1a02b72704655bf90198a38f438d1 = $(`<div id="html_51e1a02b72704655bf90198a38f438d1" style="width: 100.0%; height: 100.0%;">Place: Tijuca<br>State: Rio de Janeiro<br>Price: BRL850000.0<br>SqM: 120<br>XY: -22.927086499999998,-43.236957000000004<br>ID: 1394b4ae8dbb2cd17ead1b7cf12452c40583dd74<br></div>`)[0];
+            popup_f73de049e75b4beeb5b99178a39e2fa3.setContent(html_51e1a02b72704655bf90198a38f438d1);
+        
+
+        circle_marker_198d2ac73eea4b1bbc4581f2be3617ec.bindPopup(popup_f73de049e75b4beeb5b99178a39e2fa3)
+        ;
+
+        
+    
+    
+            var circle_marker_e9cb49b6734d473daf70e868060a2769 = L.circleMarker(
+                [-22.983601999999998, -43.20117],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_e9a8a870913340c691e60a084caa70e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e445f0cf00e1457c9697bcfa92d95c7d = $(`<div id="html_e445f0cf00e1457c9697bcfa92d95c7d" style="width: 100.0%; height: 100.0%;">Place: Ipanema<br>State: Rio de Janeiro<br>Price: BRL1400000.0<br>SqM: 186<br>XY: -22.983601999999998,-43.20117<br>ID: 55ed6e39cce4437f48b1e117f6cc4b217184b8da<br></div>`)[0];
+            popup_e9a8a870913340c691e60a084caa70e7.setContent(html_e445f0cf00e1457c9697bcfa92d95c7d);
+        
+
+        circle_marker_e9cb49b6734d473daf70e868060a2769.bindPopup(popup_e9a8a870913340c691e60a084caa70e7)
+        ;
+
+        
+    
+    
+            var circle_marker_f762243d22f04367a8e7a4b3e1dcd7a0 = L.circleMarker(
+                [-22.983601999999998, -43.20117],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_27db3bb1c7e94c5980e71db8d196de77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cf9c835611e4f1b8940320009db7743 = $(`<div id="html_9cf9c835611e4f1b8940320009db7743" style="width: 100.0%; height: 100.0%;">Place: Ipanema<br>State: Rio de Janeiro<br>Price: BRL1500000.0<br>SqM: 110<br>XY: -22.983601999999998,-43.20117<br>ID: ce8735042b98994b9ed9bea58b340f14e946f9f3<br></div>`)[0];
+            popup_27db3bb1c7e94c5980e71db8d196de77.setContent(html_9cf9c835611e4f1b8940320009db7743);
+        
+
+        circle_marker_f762243d22f04367a8e7a4b3e1dcd7a0.bindPopup(popup_27db3bb1c7e94c5980e71db8d196de77)
+        ;
+
+        
+    
+    
+            var circle_marker_990f38b854a2493fb2e8706ac4457bfe = L.circleMarker(
+                [-22.983601999999998, -43.20117],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_d9e50d5259274fc28eb82f33b97e2fb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ee2e57aa2e04568989cb56818193b1e = $(`<div id="html_3ee2e57aa2e04568989cb56818193b1e" style="width: 100.0%; height: 100.0%;">Place: Ipanema<br>State: Rio de Janeiro<br>Price: BRL1400000.0<br>SqM: 58<br>XY: -22.983601999999998,-43.20117<br>ID: c376e63bdf9f3a2cae70b186107026a78ec360b7<br></div>`)[0];
+            popup_d9e50d5259274fc28eb82f33b97e2fb6.setContent(html_3ee2e57aa2e04568989cb56818193b1e);
+        
+
+        circle_marker_990f38b854a2493fb2e8706ac4457bfe.bindPopup(popup_d9e50d5259274fc28eb82f33b97e2fb6)
+        ;
+
+        
+    
+    
+            var circle_marker_d764aba77aa042f4a47d2565c5c7d029 = L.circleMarker(
+                [-22.9274588, -43.3805836],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_8b130d4f55d142b089320bc2316d6fa4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46986634f8514d198bb91dccef0588ed = $(`<div id="html_46986634f8514d198bb91dccef0588ed" style="width: 100.0%; height: 100.0%;">Place: Taquara<br>State: Rio de Janeiro<br>Price: BRL411000.0<br>SqM: 96<br>XY: -22.9274588,-43.3805836<br>ID: f3e9ffa027e0a73a0b1bd902ad00989845c4d804<br></div>`)[0];
+            popup_8b130d4f55d142b089320bc2316d6fa4.setContent(html_46986634f8514d198bb91dccef0588ed);
+        
+
+        circle_marker_d764aba77aa042f4a47d2565c5c7d029.bindPopup(popup_8b130d4f55d142b089320bc2316d6fa4)
+        ;
+
+        
+    
+    
+            var circle_marker_7f32fc2b16c646d1ac4eb999cbf4655e = L.circleMarker(
+                [-22.9563985, -43.18153],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_17e3841af9434fe0bf352f9baabc6921 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_333ba090beb842098a8c3e33ef367b46 = $(`<div id="html_333ba090beb842098a8c3e33ef367b46" style="width: 100.0%; height: 100.0%;">Place: Botafogo<br>State: Rio de Janeiro<br>Price: BRL700000.0<br>SqM: 120<br>XY: -22.9563985,-43.18153<br>ID: c06c89ccd384226998e024e7a5d802e1a0092295<br></div>`)[0];
+            popup_17e3841af9434fe0bf352f9baabc6921.setContent(html_333ba090beb842098a8c3e33ef367b46);
+        
+
+        circle_marker_7f32fc2b16c646d1ac4eb999cbf4655e.bindPopup(popup_17e3841af9434fe0bf352f9baabc6921)
+        ;
+
+        
+    
+    
+            var circle_marker_156c78f266484a848119242f792cd42c = L.circleMarker(
+                [-22.9509924, -43.198696000000005],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_29a5b5a2bb99439187da9f081e9b4002 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a603580043ea4336a393e55ea4c61dd5 = $(`<div id="html_a603580043ea4336a393e55ea4c61dd5" style="width: 100.0%; height: 100.0%;">Place: Botafogo<br>State: Rio de Janeiro<br>Price: BRL7500000.0<br>SqM: 455<br>XY: -22.9509924,-43.198696000000005<br>ID: 8810393ffaeeb3b8823d19ae8149f2d48db1f5fd<br></div>`)[0];
+            popup_29a5b5a2bb99439187da9f081e9b4002.setContent(html_a603580043ea4336a393e55ea4c61dd5);
+        
+
+        circle_marker_156c78f266484a848119242f792cd42c.bindPopup(popup_29a5b5a2bb99439187da9f081e9b4002)
+        ;
+
+        
+    
+    
+            var circle_marker_577e9ea269a3455f89c0dbdfb0ca0260 = L.circleMarker(
+                [-22.953760600000003, -43.195057],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_03584e724ae5408c997b18ccb26ea229 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10543a9f898e4d31bdfe0343f4fdf7d1 = $(`<div id="html_10543a9f898e4d31bdfe0343f4fdf7d1" style="width: 100.0%; height: 100.0%;">Place: Botafogo<br>State: Rio de Janeiro<br>Price: BRL6900000.0<br>SqM: 573<br>XY: -22.953760600000003,-43.195057<br>ID: 6523d6041541ec357faafc715ea2b1e0256b68b0<br></div>`)[0];
+            popup_03584e724ae5408c997b18ccb26ea229.setContent(html_10543a9f898e4d31bdfe0343f4fdf7d1);
+        
+
+        circle_marker_577e9ea269a3455f89c0dbdfb0ca0260.bindPopup(popup_03584e724ae5408c997b18ccb26ea229)
+        ;
+
+        
+    
+    
+            var circle_marker_72fed060d0494e5a86bcde0940962abe = L.circleMarker(
+                [-22.9494823, -43.188269899999995],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_24716788f2144112aa10f8dfde1a2a67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c6ba658f468417786bae480ea2aa312 = $(`<div id="html_2c6ba658f468417786bae480ea2aa312" style="width: 100.0%; height: 100.0%;">Place: Botafogo<br>State: Rio de Janeiro<br>Price: BRL1440000.0<br>SqM: 173<br>XY: -22.9494823,-43.188269899999995<br>ID: d0a117801d4d86070703d0dc85ea3e27426e592a<br></div>`)[0];
+            popup_24716788f2144112aa10f8dfde1a2a67.setContent(html_2c6ba658f468417786bae480ea2aa312);
+        
+
+        circle_marker_72fed060d0494e5a86bcde0940962abe.bindPopup(popup_24716788f2144112aa10f8dfde1a2a67)
+        ;
+
+        
+    
+    
+            var circle_marker_8efd17120592499c9206cc7225256e0e = L.circleMarker(
+                [-22.949584100000003, -43.186838200000004],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_0ff8690582de4795bfbfd58e013e300d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_daa0a0f12a8a400193b08883e64e987e = $(`<div id="html_daa0a0f12a8a400193b08883e64e987e" style="width: 100.0%; height: 100.0%;">Place: Botafogo<br>State: Rio de Janeiro<br>Price: BRL650000.0<br>SqM: 100<br>XY: -22.949584100000003,-43.186838200000004<br>ID: f76668313a5e3d63b8dc89da03aa328838877105<br></div>`)[0];
+            popup_0ff8690582de4795bfbfd58e013e300d.setContent(html_daa0a0f12a8a400193b08883e64e987e);
+        
+
+        circle_marker_8efd17120592499c9206cc7225256e0e.bindPopup(popup_0ff8690582de4795bfbfd58e013e300d)
+        ;
+
+        
+    
+    
+            var circle_marker_212108633f6544469aed88dde034c867 = L.circleMarker(
+                [-22.9506734, -43.1874526],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_882da8d1946e4dac99e0a121401638f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6804c90ee8444636ac18c1364abb39f5 = $(`<div id="html_6804c90ee8444636ac18c1364abb39f5" style="width: 100.0%; height: 100.0%;">Place: Botafogo<br>State: Rio de Janeiro<br>Price: BRL3000000.0<br>SqM: 180<br>XY: -22.9506734,-43.1874526<br>ID: 27a7607d9ab4613fbf5d932743e6d1c2f67b248f<br></div>`)[0];
+            popup_882da8d1946e4dac99e0a121401638f9.setContent(html_6804c90ee8444636ac18c1364abb39f5);
+        
+
+        circle_marker_212108633f6544469aed88dde034c867.bindPopup(popup_882da8d1946e4dac99e0a121401638f9)
+        ;
+
+        
+    
+    
+            var circle_marker_4beea04be06e4ff18cedf7d176ec4c7f = L.circleMarker(
+                [-22.9506734, -43.1874526],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_8ebd1f1315ec4d9da07d85c059e75532 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15b6fda2a7674c1c805520b1d8d543c6 = $(`<div id="html_15b6fda2a7674c1c805520b1d8d543c6" style="width: 100.0%; height: 100.0%;">Place: Botafogo<br>State: Rio de Janeiro<br>Price: BRL3150000.0<br>SqM: 289<br>XY: -22.9506734,-43.1874526<br>ID: c9588660a443169ed00d5e32c97848f82ee34aba<br></div>`)[0];
+            popup_8ebd1f1315ec4d9da07d85c059e75532.setContent(html_15b6fda2a7674c1c805520b1d8d543c6);
+        
+
+        circle_marker_4beea04be06e4ff18cedf7d176ec4c7f.bindPopup(popup_8ebd1f1315ec4d9da07d85c059e75532)
+        ;
+
+        
+    
+    
+            var circle_marker_e2e6958186d24e1fbda7993b9a7aa9e6 = L.circleMarker(
+                [-22.9506734, -43.1874526],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_54cb8cab94bc490495b492be1202f4f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_737a435432514a2f8e6991bee423d2d0 = $(`<div id="html_737a435432514a2f8e6991bee423d2d0" style="width: 100.0%; height: 100.0%;">Place: Botafogo<br>State: Rio de Janeiro<br>Price: BRL3150000.0<br>SqM: 289<br>XY: -22.9506734,-43.1874526<br>ID: cebc87391a7646ae73b0e95720b72fe9f5158038<br></div>`)[0];
+            popup_54cb8cab94bc490495b492be1202f4f5.setContent(html_737a435432514a2f8e6991bee423d2d0);
+        
+
+        circle_marker_e2e6958186d24e1fbda7993b9a7aa9e6.bindPopup(popup_54cb8cab94bc490495b492be1202f4f5)
+        ;
+
+        
+    
+    
+            var circle_marker_9e212ce62ffb43a9b666b8a3026d8f12 = L.circleMarker(
+                [-22.9532585, -43.186449100000004],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_590ddc6649784c9a80c2525b26ae4627 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c398930c5cd64367b567dab0e1e4b40e = $(`<div id="html_c398930c5cd64367b567dab0e1e4b40e" style="width: 100.0%; height: 100.0%;">Place: Botafogo<br>State: Rio de Janeiro<br>Price: BRL5500000.0<br>SqM: 421<br>XY: -22.9532585,-43.186449100000004<br>ID: c304625a980d01a5b4ecb049ef2f4d12a20d9a95<br></div>`)[0];
+            popup_590ddc6649784c9a80c2525b26ae4627.setContent(html_c398930c5cd64367b567dab0e1e4b40e);
+        
+
+        circle_marker_9e212ce62ffb43a9b666b8a3026d8f12.bindPopup(popup_590ddc6649784c9a80c2525b26ae4627)
+        ;
+
+        
+    
+    
+            var circle_marker_56d64d22c22c4d63b05c98b370f3a030 = L.circleMarker(
+                [-22.955131100000003, -43.1855604],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_1a98a277142d4f71ad23dee58aee7ed7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de5556434e944260bc2947a19f63e665 = $(`<div id="html_de5556434e944260bc2947a19f63e665" style="width: 100.0%; height: 100.0%;">Place: Botafogo<br>State: Rio de Janeiro<br>Price: BRL1900000.0<br>SqM: 160<br>XY: -22.955131100000003,-43.1855604<br>ID: 14a7e281613fd2f204918f771dee0db6c8bc12c3<br></div>`)[0];
+            popup_1a98a277142d4f71ad23dee58aee7ed7.setContent(html_de5556434e944260bc2947a19f63e665);
+        
+
+        circle_marker_56d64d22c22c4d63b05c98b370f3a030.bindPopup(popup_1a98a277142d4f71ad23dee58aee7ed7)
+        ;
+
+        
+    
+    
+            var circle_marker_ff1620ef6720491587493c806fd8fa53 = L.circleMarker(
+                [-22.9553701, -43.1821782],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_8c7136ffabc24d29803f9dd06c6577ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a71da635f4f466f99df97bdd9ec9daa = $(`<div id="html_8a71da635f4f466f99df97bdd9ec9daa" style="width: 100.0%; height: 100.0%;">Place: Botafogo<br>State: Rio de Janeiro<br>Price: BRL3150000.0<br>SqM: 280<br>XY: -22.9553701,-43.1821782<br>ID: fa17c51f5a493a0ef392ff320d2aa6ef54e63773<br></div>`)[0];
+            popup_8c7136ffabc24d29803f9dd06c6577ce.setContent(html_8a71da635f4f466f99df97bdd9ec9daa);
+        
+
+        circle_marker_ff1620ef6720491587493c806fd8fa53.bindPopup(popup_8c7136ffabc24d29803f9dd06c6577ce)
+        ;
+
+        
+    
+    
+            var circle_marker_bccfe8114a4b40a2b3e645f63a068113 = L.circleMarker(
+                [-22.9560201, -43.1804584],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_3270d66960b543d3805387ecfdfe86a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72270f019f6444808b237e957cefe0b9 = $(`<div id="html_72270f019f6444808b237e957cefe0b9" style="width: 100.0%; height: 100.0%;">Place: Botafogo<br>State: Rio de Janeiro<br>Price: BRL820000.0<br>SqM: 110<br>XY: -22.9560201,-43.1804584<br>ID: ba924cfc0eb7a60d3e41b57d89a81d012092ffed<br></div>`)[0];
+            popup_3270d66960b543d3805387ecfdfe86a8.setContent(html_72270f019f6444808b237e957cefe0b9);
+        
+
+        circle_marker_bccfe8114a4b40a2b3e645f63a068113.bindPopup(popup_3270d66960b543d3805387ecfdfe86a8)
+        ;
+
+        
+    
+    
+            var circle_marker_1187487cc655454aae267452a4c15486 = L.circleMarker(
+                [-22.9588371, -43.1966917],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_63dd8682d39646aba6f3a2c05e6de0bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_570f73dfa9fd4addb67c1b3e33c7b39d = $(`<div id="html_570f73dfa9fd4addb67c1b3e33c7b39d" style="width: 100.0%; height: 100.0%;">Place: Botafogo<br>State: Rio de Janeiro<br>Price: BRL2100000.0<br>SqM: 154<br>XY: -22.9588371,-43.1966917<br>ID: 0fc590776ca826161aaab4bf575ce169d60d737b<br></div>`)[0];
+            popup_63dd8682d39646aba6f3a2c05e6de0bf.setContent(html_570f73dfa9fd4addb67c1b3e33c7b39d);
+        
+
+        circle_marker_1187487cc655454aae267452a4c15486.bindPopup(popup_63dd8682d39646aba6f3a2c05e6de0bf)
+        ;
+
+        
+    
+    
+            var circle_marker_37df8ef8b82f4f1c8ef83cea917b07e5 = L.circleMarker(
+                [-22.8626395, -43.2539991],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_e7184d647bcb45c691ebe807d25fb356 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29f7433fcbbc4816800174ed1eda4e4a = $(`<div id="html_29f7433fcbbc4816800174ed1eda4e4a" style="width: 100.0%; height: 100.0%;">Place: Flamengo<br>State: Rio de Janeiro<br>Price: BRL2000000.0<br>SqM: 210<br>XY: -22.8626395,-43.2539991<br>ID: 5b6fdd6728c9b2900583696619269a386a25d5e7<br></div>`)[0];
+            popup_e7184d647bcb45c691ebe807d25fb356.setContent(html_29f7433fcbbc4816800174ed1eda4e4a);
+        
+
+        circle_marker_37df8ef8b82f4f1c8ef83cea917b07e5.bindPopup(popup_e7184d647bcb45c691ebe807d25fb356)
+        ;
+
+        
+    
+    
+            var circle_marker_5d194551edd1483980830703325d541e = L.circleMarker(
+                [-22.9362565, -43.176455499999996],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_0bca794122424020b5033f9fb5f961f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afe8a018f665484e92aef1503c046b57 = $(`<div id="html_afe8a018f665484e92aef1503c046b57" style="width: 100.0%; height: 100.0%;">Place: Flamengo<br>State: Rio de Janeiro<br>Price: BRL3990000.0<br>SqM: 286<br>XY: -22.9362565,-43.176455499999996<br>ID: c2b7657937feb675cd0c6d68602177c73d0181f4<br></div>`)[0];
+            popup_0bca794122424020b5033f9fb5f961f7.setContent(html_afe8a018f665484e92aef1503c046b57);
+        
+
+        circle_marker_5d194551edd1483980830703325d541e.bindPopup(popup_0bca794122424020b5033f9fb5f961f7)
+        ;
+
+        
+    
+    
+            var circle_marker_51e0c02e3bb14da9adae27bcc4fad59f = L.circleMarker(
+                [-22.9365515, -43.1816965],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_d5ed1465b5d3441ca419b780935a79fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77968a9dd6f04e39814019361f628fd6 = $(`<div id="html_77968a9dd6f04e39814019361f628fd6" style="width: 100.0%; height: 100.0%;">Place: Flamengo<br>State: Rio de Janeiro<br>Price: BRL8000000.0<br>SqM: 596<br>XY: -22.9365515,-43.1816965<br>ID: 71f8672e586237a510f537ed72f5c2c2a89e2e00<br></div>`)[0];
+            popup_d5ed1465b5d3441ca419b780935a79fc.setContent(html_77968a9dd6f04e39814019361f628fd6);
+        
+
+        circle_marker_51e0c02e3bb14da9adae27bcc4fad59f.bindPopup(popup_d5ed1465b5d3441ca419b780935a79fc)
+        ;
+
+        
+    
+    
+            var circle_marker_9aa967f7c05a43d5a364134a91d3512c = L.circleMarker(
+                [-22.9529701, -43.1981718],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_5294423ac4b7419d85ecb94b5dc17bb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d49f1ab148e4916b3733397f4904d7a = $(`<div id="html_6d49f1ab148e4916b3733397f4904d7a" style="width: 100.0%; height: 100.0%;">Place: Humaitá<br>State: Rio de Janeiro<br>Price: BRL1800000.0<br>SqM: 160<br>XY: -22.9529701,-43.1981718<br>ID: c8e916577175ce0a3e1421c48dca4ccffd4c6eb2<br></div>`)[0];
+            popup_5294423ac4b7419d85ecb94b5dc17bb0.setContent(html_6d49f1ab148e4916b3733397f4904d7a);
+        
+
+        circle_marker_9aa967f7c05a43d5a364134a91d3512c.bindPopup(popup_5294423ac4b7419d85ecb94b5dc17bb0)
+        ;
+
+        
+    
+    
+            var circle_marker_372b01b3ab544833b8887be909cdef45 = L.circleMarker(
+                [-22.9541008, -43.1966723],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_080a32cc28994a4eab15cbefb35ea473 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6a73f24de41419e8cc6341cd2d49863 = $(`<div id="html_f6a73f24de41419e8cc6341cd2d49863" style="width: 100.0%; height: 100.0%;">Place: Humaitá<br>State: Rio de Janeiro<br>Price: BRL1100000.0<br>SqM: 195<br>XY: -22.9541008,-43.1966723<br>ID: dc8e4e4ddf3cef3fdc5f036188b5488554a0a508<br></div>`)[0];
+            popup_080a32cc28994a4eab15cbefb35ea473.setContent(html_f6a73f24de41419e8cc6341cd2d49863);
+        
+
+        circle_marker_372b01b3ab544833b8887be909cdef45.bindPopup(popup_080a32cc28994a4eab15cbefb35ea473)
+        ;
+
+        
+    
+    
+            var circle_marker_e8aa9c5534ab48c2badc40fe75293b71 = L.circleMarker(
+                [-22.9557543, -43.1982559],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_478da20287884237a2ef056b5e339e7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b8d753ef0dc424685a0a7774243687a = $(`<div id="html_7b8d753ef0dc424685a0a7774243687a" style="width: 100.0%; height: 100.0%;">Place: Humaitá<br>State: Rio de Janeiro<br>Price: BRL3600000.0<br>SqM: 282<br>XY: -22.9557543,-43.1982559<br>ID: 1f02e1ae1ed07d88e4b12e9b76278f777e48c5d6<br></div>`)[0];
+            popup_478da20287884237a2ef056b5e339e7d.setContent(html_7b8d753ef0dc424685a0a7774243687a);
+        
+
+        circle_marker_e8aa9c5534ab48c2badc40fe75293b71.bindPopup(popup_478da20287884237a2ef056b5e339e7d)
+        ;
+
+        
+    
+    
+            var circle_marker_9aa72ca889c4453ebb91884cf0279f8e = L.circleMarker(
+                [-22.9582917, -43.1975602],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_bd590642ff8b4741a5995697168b059f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8892061677d64a16bab717a25b7b92dd = $(`<div id="html_8892061677d64a16bab717a25b7b92dd" style="width: 100.0%; height: 100.0%;">Place: Humaitá<br>State: Rio de Janeiro<br>Price: BRL1000000.0<br>SqM: 134<br>XY: -22.9582917,-43.1975602<br>ID: 61c2db867ed8dc87f9017daa2a0c8dbf1622b8b2<br></div>`)[0];
+            popup_bd590642ff8b4741a5995697168b059f.setContent(html_8892061677d64a16bab717a25b7b92dd);
+        
+
+        circle_marker_9aa72ca889c4453ebb91884cf0279f8e.bindPopup(popup_bd590642ff8b4741a5995697168b059f)
+        ;
+
+        
+    
+    
+            var circle_marker_2ef5e434582b4c069c4b344d822d77db = L.circleMarker(
+                [-22.9601611, -43.2013442],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_2ff28e02fddd44c09b3eccce5b55ac2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6bf08cbdd054190a4717d68aa659f02 = $(`<div id="html_b6bf08cbdd054190a4717d68aa659f02" style="width: 100.0%; height: 100.0%;">Place: Humaitá<br>State: Rio de Janeiro<br>Price: BRL1500000.0<br>SqM: 127<br>XY: -22.9601611,-43.2013442<br>ID: 39f304fa66d96ff1d04b841fffc55361dd25b08c<br></div>`)[0];
+            popup_2ff28e02fddd44c09b3eccce5b55ac2a.setContent(html_b6bf08cbdd054190a4717d68aa659f02);
+        
+
+        circle_marker_2ef5e434582b4c069c4b344d822d77db.bindPopup(popup_2ff28e02fddd44c09b3eccce5b55ac2a)
+        ;
+
+        
+    
+    
+            var circle_marker_50e562187c6a4c33a47d7c6189d0070b = L.circleMarker(
+                [-22.9603952, -43.200642200000004],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_d0467061379348aabe0ea96cea19c1f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60c7c45e8aa243849217048052a98b31 = $(`<div id="html_60c7c45e8aa243849217048052a98b31" style="width: 100.0%; height: 100.0%;">Place: Humaitá<br>State: Rio de Janeiro<br>Price: BRL4980000.0<br>SqM: 340<br>XY: -22.9603952,-43.200642200000004<br>ID: b570bf05a1a0ccdeceb862574c8eddfd4519e4e2<br></div>`)[0];
+            popup_d0467061379348aabe0ea96cea19c1f5.setContent(html_60c7c45e8aa243849217048052a98b31);
+        
+
+        circle_marker_50e562187c6a4c33a47d7c6189d0070b.bindPopup(popup_d0467061379348aabe0ea96cea19c1f5)
+        ;
+
+        
+    
+    
+            var circle_marker_720f819677204074872c464aca6d1b02 = L.circleMarker(
+                [-22.9615046, -43.1995935],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_6c10d2cf870944b1856348863fab01a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57e272157e8c44cb848021a69f76ef82 = $(`<div id="html_57e272157e8c44cb848021a69f76ef82" style="width: 100.0%; height: 100.0%;">Place: Humaitá<br>State: Rio de Janeiro<br>Price: BRL4800000.0<br>SqM: 700<br>XY: -22.9615046,-43.1995935<br>ID: 8dfd1806af8349350f8b5a4d6effafa83b116ccf<br></div>`)[0];
+            popup_6c10d2cf870944b1856348863fab01a7.setContent(html_57e272157e8c44cb848021a69f76ef82);
+        
+
+        circle_marker_720f819677204074872c464aca6d1b02.bindPopup(popup_6c10d2cf870944b1856348863fab01a7)
+        ;
+
+        
+    
+    
+            var circle_marker_81140f887f4a4e449edfbf7a8bc96ef2 = L.circleMarker(
+                [-22.9023844, -43.5921195],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_17a86013a4fb4df5902424dd9e16437b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14cbd30e64cd4b12ab3057504b8448b0 = $(`<div id="html_14cbd30e64cd4b12ab3057504b8448b0" style="width: 100.0%; height: 100.0%;">Place: Guaratiba<br>State: Rio de Janeiro<br>Price: BRL600000.0<br>SqM: 200<br>XY: -22.9023844,-43.5921195<br>ID: 402701434900d5c12cdc69474d541a0a2a000ab7<br></div>`)[0];
+            popup_17a86013a4fb4df5902424dd9e16437b.setContent(html_14cbd30e64cd4b12ab3057504b8448b0);
+        
+
+        circle_marker_81140f887f4a4e449edfbf7a8bc96ef2.bindPopup(popup_17a86013a4fb4df5902424dd9e16437b)
+        ;
+
+        
+    
+    
+            var circle_marker_1386655de764451a8c9f51a23e890b50 = L.circleMarker(
+                [-22.935848999999997, -43.352269],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_e89a5c84ae84465c92ab5aae94b2b3ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32f2f3b5ee0b4fb8b21005830279ece3 = $(`<div id="html_32f2f3b5ee0b4fb8b21005830279ece3" style="width: 100.0%; height: 100.0%;">Place: Pechincha<br>State: Rio de Janeiro<br>Price: BRL368000.0<br>SqM: 60<br>XY: -22.935848999999997,-43.352269<br>ID: e142b4ea46a210e7ae2cb048547036aa19f29275<br></div>`)[0];
+            popup_e89a5c84ae84465c92ab5aae94b2b3ca.setContent(html_32f2f3b5ee0b4fb8b21005830279ece3);
+        
+
+        circle_marker_1386655de764451a8c9f51a23e890b50.bindPopup(popup_e89a5c84ae84465c92ab5aae94b2b3ca)
+        ;
+
+        
+    
+    
+            var circle_marker_52597bde47214b53a2638940da68a947 = L.circleMarker(
+                [-22.9313669, -43.3500135],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_f058900639a94eef84b7f8df4b6ec029 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_511fb88458874a0da3ba7bb9f4faffb4 = $(`<div id="html_511fb88458874a0da3ba7bb9f4faffb4" style="width: 100.0%; height: 100.0%;">Place: Pechincha<br>State: Rio de Janeiro<br>Price: BRL750000.0<br>SqM: 350<br>XY: -22.9313669,-43.3500135<br>ID: 49af64eec514fb0500a1ae875701d699b0a67b6d<br></div>`)[0];
+            popup_f058900639a94eef84b7f8df4b6ec029.setContent(html_511fb88458874a0da3ba7bb9f4faffb4);
+        
+
+        circle_marker_52597bde47214b53a2638940da68a947.bindPopup(popup_f058900639a94eef84b7f8df4b6ec029)
+        ;
+
+        
+    
+    
+            var circle_marker_6c54a984993248259f1095790065a85f = L.circleMarker(
+                [-22.9357311, -43.3570748],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_3a36fd173d8f4bdfb2166f97a913ffb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1706c5dd40b412d8ee5a1ea3f843899 = $(`<div id="html_d1706c5dd40b412d8ee5a1ea3f843899" style="width: 100.0%; height: 100.0%;">Place: Pechincha<br>State: Rio de Janeiro<br>Price: BRL950000.0<br>SqM: 234<br>XY: -22.9357311,-43.3570748<br>ID: 6fb2448b2692cd0dd1277ef0438c5b837463ec28<br></div>`)[0];
+            popup_3a36fd173d8f4bdfb2166f97a913ffb1.setContent(html_d1706c5dd40b412d8ee5a1ea3f843899);
+        
+
+        circle_marker_6c54a984993248259f1095790065a85f.bindPopup(popup_3a36fd173d8f4bdfb2166f97a913ffb1)
+        ;
+
+        
+    
+    
+            var circle_marker_6f7b572cfd0d467883f2035751e3e9a9 = L.circleMarker(
+                [-22.9390647, -43.3618778],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_eeb0587e9cb44382a12916cce07766d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30d8a9bb8f6541dcb9af81813962886f = $(`<div id="html_30d8a9bb8f6541dcb9af81813962886f" style="width: 100.0%; height: 100.0%;">Place: Pechincha<br>State: Rio de Janeiro<br>Price: BRL336000.0<br>SqM: 90<br>XY: -22.9390647,-43.3618778<br>ID: 0b1a9945315d787914a4c334054aefcbb641755a<br></div>`)[0];
+            popup_eeb0587e9cb44382a12916cce07766d8.setContent(html_30d8a9bb8f6541dcb9af81813962886f);
+        
+
+        circle_marker_6f7b572cfd0d467883f2035751e3e9a9.bindPopup(popup_eeb0587e9cb44382a12916cce07766d8)
+        ;
+
+        
+    
+    
+            var circle_marker_fdb8a48a457a4affa260c351d49151c9 = L.circleMarker(
+                [-22.9409319, -43.360134499999994],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_196f4b073d8845afae860abc3589a6f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a2e5617fb2e497a9f4c6d15b9d4a756 = $(`<div id="html_5a2e5617fb2e497a9f4c6d15b9d4a756" style="width: 100.0%; height: 100.0%;">Place: Pechincha<br>State: Rio de Janeiro<br>Price: BRL499990.0<br>SqM: 95<br>XY: -22.9409319,-43.360134499999994<br>ID: 5ff7d316f513acd8178496ed23dbc73dbdf40c70<br></div>`)[0];
+            popup_196f4b073d8845afae860abc3589a6f6.setContent(html_5a2e5617fb2e497a9f4c6d15b9d4a756);
+        
+
+        circle_marker_fdb8a48a457a4affa260c351d49151c9.bindPopup(popup_196f4b073d8845afae860abc3589a6f6)
+        ;
+
+        
+    
+    
+            var circle_marker_5f287232598d4ebeb64d51c6c93386c6 = L.circleMarker(
+                [-22.98198, -43.1960641],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_d81d4a7fee8e47d0bf0e762bb04413c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d47d1dd365b44ce9bcc55325cd08270d = $(`<div id="html_d47d1dd365b44ce9bcc55325cd08270d" style="width: 100.0%; height: 100.0%;">Place: Copacabana<br>State: Rio de Janeiro<br>Price: BRL2500000.0<br>SqM: 1000<br>XY: -22.98198,-43.1960641<br>ID: 47de6ef9ad5e8e0416fbcd41c6b82a1f83dc9aed<br></div>`)[0];
+            popup_d81d4a7fee8e47d0bf0e762bb04413c4.setContent(html_d47d1dd365b44ce9bcc55325cd08270d);
+        
+
+        circle_marker_5f287232598d4ebeb64d51c6c93386c6.bindPopup(popup_d81d4a7fee8e47d0bf0e762bb04413c4)
+        ;
+
+        
+    
+    
+            var circle_marker_d38e5104aa644d8188f480c8fa6e27a1 = L.circleMarker(
+                [-22.982020000000002, -43.196046200000005],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_d3b255c883804e798448a90ab8cdea47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45cf329ea1b2421ca1b6d36e91304b84 = $(`<div id="html_45cf329ea1b2421ca1b6d36e91304b84" style="width: 100.0%; height: 100.0%;">Place: Copacabana<br>State: Rio de Janeiro<br>Price: BRL3050000.0<br>SqM: 396<br>XY: -22.982020000000002,-43.196046200000005<br>ID: 4c7bf2fd759f74e5bb3297cde1298cf7883eeae2<br></div>`)[0];
+            popup_d3b255c883804e798448a90ab8cdea47.setContent(html_45cf329ea1b2421ca1b6d36e91304b84);
+        
+
+        circle_marker_d38e5104aa644d8188f480c8fa6e27a1.bindPopup(popup_d3b255c883804e798448a90ab8cdea47)
+        ;
+
+        
+    
+    
+            var circle_marker_12e64943f85c4ca2af728d7900d4de2b = L.circleMarker(
+                [-22.968698999999997, -43.1905065],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_bb93192905884b0eb55e04aa93c0fdf6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45204882c032433698b7ae9d12164b00 = $(`<div id="html_45204882c032433698b7ae9d12164b00" style="width: 100.0%; height: 100.0%;">Place: Copacabana<br>State: Rio de Janeiro<br>Price: BRL1990000.0<br>SqM: 270<br>XY: -22.968698999999997,-43.1905065<br>ID: 2d715d5dfa4653915d8d4cd38d87b9dd9ecebc03<br></div>`)[0];
+            popup_bb93192905884b0eb55e04aa93c0fdf6.setContent(html_45204882c032433698b7ae9d12164b00);
+        
+
+        circle_marker_12e64943f85c4ca2af728d7900d4de2b.bindPopup(popup_bb93192905884b0eb55e04aa93c0fdf6)
+        ;
+
+        
+    
+    
+            var circle_marker_6926f855dac14e3498e2cfa01cfae3bf = L.circleMarker(
+                [-22.970852700000002, -43.1876841],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_5de895ac36514971a38777b89145980d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b7977a784674f82befbcb5bbb12a9e1 = $(`<div id="html_7b7977a784674f82befbcb5bbb12a9e1" style="width: 100.0%; height: 100.0%;">Place: Copacabana<br>State: Rio de Janeiro<br>Price: BRL2100000.0<br>SqM: 350<br>XY: -22.970852700000002,-43.1876841<br>ID: 2d7f184c8c6c0d42a719c7320cb65029a409e754<br></div>`)[0];
+            popup_5de895ac36514971a38777b89145980d.setContent(html_7b7977a784674f82befbcb5bbb12a9e1);
+        
+
+        circle_marker_6926f855dac14e3498e2cfa01cfae3bf.bindPopup(popup_5de895ac36514971a38777b89145980d)
+        ;
+
+        
+    
+    
+            var circle_marker_fb67dbd5a6484a45aaea5863ea703e1e = L.circleMarker(
+                [-22.970852700000002, -43.1876841],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_91b9a19cadc54b968d90530822b5ff0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b67836fe5cc41359b00295d3813c136 = $(`<div id="html_7b67836fe5cc41359b00295d3813c136" style="width: 100.0%; height: 100.0%;">Place: Copacabana<br>State: Rio de Janeiro<br>Price: BRL2100000.0<br>SqM: 360<br>XY: -22.970852700000002,-43.1876841<br>ID: 81d4c3ff3a7c5d868a743ddc2708b7c92cdf53fb<br></div>`)[0];
+            popup_91b9a19cadc54b968d90530822b5ff0f.setContent(html_7b67836fe5cc41359b00295d3813c136);
+        
+
+        circle_marker_fb67dbd5a6484a45aaea5863ea703e1e.bindPopup(popup_91b9a19cadc54b968d90530822b5ff0f)
+        ;
+
+        
+    
+    
+            var circle_marker_a86baf065a7744a58e0e02b7da3cd709 = L.circleMarker(
+                [-22.9844173, -43.1920737],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_0f18bd36fcaf4e7e9460ba5b1330f75a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f394d248b0b4839811abca0583f2629 = $(`<div id="html_7f394d248b0b4839811abca0583f2629" style="width: 100.0%; height: 100.0%;">Place: Copacabana<br>State: Rio de Janeiro<br>Price: BRL1580000.0<br>SqM: 188<br>XY: -22.9844173,-43.1920737<br>ID: 2b69101c651bd279357c9f1729b6df27bdd535f5<br></div>`)[0];
+            popup_0f18bd36fcaf4e7e9460ba5b1330f75a.setContent(html_7f394d248b0b4839811abca0583f2629);
+        
+
+        circle_marker_a86baf065a7744a58e0e02b7da3cd709.bindPopup(popup_0f18bd36fcaf4e7e9460ba5b1330f75a)
+        ;
+
+        
+    
+    
+            var circle_marker_4306543600344f4c809c1a0478ba31be = L.circleMarker(
+                [-22.9847296, -43.19365820000001],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_7a479ef05f6647eea76ecab33e6540c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_327732fadc634c2e99a62190bc65a7df = $(`<div id="html_327732fadc634c2e99a62190bc65a7df" style="width: 100.0%; height: 100.0%;">Place: Copacabana<br>State: Rio de Janeiro<br>Price: BRL2900000.0<br>SqM: 240<br>XY: -22.9847296,-43.19365820000001<br>ID: 2a3348f7a15fa4b6f1f109f19cb2a1706f8a176e<br></div>`)[0];
+            popup_7a479ef05f6647eea76ecab33e6540c2.setContent(html_327732fadc634c2e99a62190bc65a7df);
+        
+
+        circle_marker_4306543600344f4c809c1a0478ba31be.bindPopup(popup_7a479ef05f6647eea76ecab33e6540c2)
+        ;
+
+        
+    
+    
+            var circle_marker_4a5c3c36c49e43f689ab337621bb49e8 = L.circleMarker(
+                [-22.9378839, -43.1985455],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_b9466c310fac44a5b000ac6038e64fc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d4b20cf48594264866ed68f87060530 = $(`<div id="html_7d4b20cf48594264866ed68f87060530" style="width: 100.0%; height: 100.0%;">Place: Cosme Velho<br>State: Rio de Janeiro<br>Price: BRL2650000.0<br>SqM: 800<br>XY: -22.9378839,-43.1985455<br>ID: 7e24663c997a1f152b8351dfea8d3b1b59a046cd<br></div>`)[0];
+            popup_b9466c310fac44a5b000ac6038e64fc4.setContent(html_7d4b20cf48594264866ed68f87060530);
+        
+
+        circle_marker_4a5c3c36c49e43f689ab337621bb49e8.bindPopup(popup_b9466c310fac44a5b000ac6038e64fc4)
+        ;
+
+        
+    
+    
+            var circle_marker_72427026ac9f4c118a7b7138022e69f5 = L.circleMarker(
+                [-22.9378839, -43.1985455],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_2ebcf16344d94370b6340abed2fa5298 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c58b3830e1ee48db9415202e5003a8c4 = $(`<div id="html_c58b3830e1ee48db9415202e5003a8c4" style="width: 100.0%; height: 100.0%;">Place: Cosme Velho<br>State: Rio de Janeiro<br>Price: BRL2650000.0<br>SqM: 760<br>XY: -22.9378839,-43.1985455<br>ID: 9e959b33bab7f93421f10c79fcb3f503cc7df2aa<br></div>`)[0];
+            popup_2ebcf16344d94370b6340abed2fa5298.setContent(html_c58b3830e1ee48db9415202e5003a8c4);
+        
+
+        circle_marker_72427026ac9f4c118a7b7138022e69f5.bindPopup(popup_2ebcf16344d94370b6340abed2fa5298)
+        ;
+
+        
+    
+    
+            var circle_marker_ae10203ac5b74517bc25ff22c391760b = L.circleMarker(
+                [-22.9393651, -43.2056129],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_b9c71e337e0d46109371686968cf8927 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e9bc1eb32bb4761b3ed000dd20ae334 = $(`<div id="html_0e9bc1eb32bb4761b3ed000dd20ae334" style="width: 100.0%; height: 100.0%;">Place: Cosme Velho<br>State: Rio de Janeiro<br>Price: BRL2100000.0<br>SqM: 450<br>XY: -22.9393651,-43.2056129<br>ID: b9c5ecb5fc5748ce4ac5749bec79274a7c7fbb39<br></div>`)[0];
+            popup_b9c71e337e0d46109371686968cf8927.setContent(html_0e9bc1eb32bb4761b3ed000dd20ae334);
+        
+
+        circle_marker_ae10203ac5b74517bc25ff22c391760b.bindPopup(popup_b9c71e337e0d46109371686968cf8927)
+        ;
+
+        
+    
+    
+            var circle_marker_df1315f3547542a789fc3d632e40ad80 = L.circleMarker(
+                [-22.943744199999998, -43.2073001],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_ca1d8e537bb74298823f0b413e4f3820 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_876ce87e803f431baae6af326bc5331b = $(`<div id="html_876ce87e803f431baae6af326bc5331b" style="width: 100.0%; height: 100.0%;">Place: Cosme Velho<br>State: Rio de Janeiro<br>Price: BRL1500000.0<br>SqM: 187<br>XY: -22.943744199999998,-43.2073001<br>ID: 7af22525ed041d20f68136c70a725692d6bc3d9c<br></div>`)[0];
+            popup_ca1d8e537bb74298823f0b413e4f3820.setContent(html_876ce87e803f431baae6af326bc5331b);
+        
+
+        circle_marker_df1315f3547542a789fc3d632e40ad80.bindPopup(popup_ca1d8e537bb74298823f0b413e4f3820)
+        ;
+
+        
+    
+    
+            var circle_marker_4e56fa5991ce4d9bb14ade2a44892a3f = L.circleMarker(
+                [-22.936551, -43.197870200000004],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_5178e0dfa4b641df8ee340d34db80143 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e343b37d8a834c72a398a896b678b496 = $(`<div id="html_e343b37d8a834c72a398a896b678b496" style="width: 100.0%; height: 100.0%;">Place: Laranjeiras<br>State: Rio de Janeiro<br>Price: BRL2200000.0<br>SqM: 171<br>XY: -22.936551,-43.197870200000004<br>ID: 2738f275481f303f55a5c7ed448f94e905326408<br></div>`)[0];
+            popup_5178e0dfa4b641df8ee340d34db80143.setContent(html_e343b37d8a834c72a398a896b678b496);
+        
+
+        circle_marker_4e56fa5991ce4d9bb14ade2a44892a3f.bindPopup(popup_5178e0dfa4b641df8ee340d34db80143)
+        ;
+
+        
+    
+    
+            var circle_marker_60580d786ec844468ada386f4cb8552d = L.circleMarker(
+                [-22.941807999999998, -43.1898029],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_77d7248c53764eb898d904a5429dbe5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fff537e922de427c8344b7bb55261763 = $(`<div id="html_fff537e922de427c8344b7bb55261763" style="width: 100.0%; height: 100.0%;">Place: Laranjeiras<br>State: Rio de Janeiro<br>Price: BRL1800000.0<br>SqM: 271<br>XY: -22.941807999999998,-43.1898029<br>ID: 7b47c39aee30db3cf86cda3b6cdcdfe740748064<br></div>`)[0];
+            popup_77d7248c53764eb898d904a5429dbe5d.setContent(html_fff537e922de427c8344b7bb55261763);
+        
+
+        circle_marker_60580d786ec844468ada386f4cb8552d.bindPopup(popup_77d7248c53764eb898d904a5429dbe5d)
+        ;
+
+        
+    
+    
+            var circle_marker_d8760829f4af4377baf5e2b4df72e0b1 = L.circleMarker(
+                [-22.9294327, -43.1898222],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_d32dd9ee67f44652a73f3ae2b4181abb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f3eac6221604bf6866d5a30056ff562 = $(`<div id="html_4f3eac6221604bf6866d5a30056ff562" style="width: 100.0%; height: 100.0%;">Place: Laranjeiras<br>State: Rio de Janeiro<br>Price: BRL2450000.0<br>SqM: 396<br>XY: -22.9294327,-43.1898222<br>ID: 4f3d75b1cfe6b5281b43e4148bf08ecd1ad8a71b<br></div>`)[0];
+            popup_d32dd9ee67f44652a73f3ae2b4181abb.setContent(html_4f3eac6221604bf6866d5a30056ff562);
+        
+
+        circle_marker_d8760829f4af4377baf5e2b4df72e0b1.bindPopup(popup_d32dd9ee67f44652a73f3ae2b4181abb)
+        ;
+
+        
+    
+    
+            var circle_marker_d89e8ede779e416491fe88819cebb636 = L.circleMarker(
+                [-22.9297227, -43.1896443],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_b6b6a368370d42a38632cc048c3a5964 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcd1bc2eeeea47e2856c9c20e731b170 = $(`<div id="html_fcd1bc2eeeea47e2856c9c20e731b170" style="width: 100.0%; height: 100.0%;">Place: Laranjeiras<br>State: Rio de Janeiro<br>Price: BRL1685000.0<br>SqM: 405<br>XY: -22.9297227,-43.1896443<br>ID: 96614ddd183ce45fe7ea28370063172d0c48dbc7<br></div>`)[0];
+            popup_b6b6a368370d42a38632cc048c3a5964.setContent(html_fcd1bc2eeeea47e2856c9c20e731b170);
+        
+
+        circle_marker_d89e8ede779e416491fe88819cebb636.bindPopup(popup_b6b6a368370d42a38632cc048c3a5964)
+        ;
+
+        
+    
+    
+            var circle_marker_f73b4d3856ef482d88827f3de8903aff = L.circleMarker(
+                [-22.932205800000002, -43.1814251],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_765f9549e39d42de9b0de6ce564a465e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2908f836520d40fb9cab89644954fe01 = $(`<div id="html_2908f836520d40fb9cab89644954fe01" style="width: 100.0%; height: 100.0%;">Place: Laranjeiras<br>State: Rio de Janeiro<br>Price: BRL1000000.0<br>SqM: 130<br>XY: -22.932205800000002,-43.1814251<br>ID: 7eecca52bc51178edeaa271e724996ff580a6c76<br></div>`)[0];
+            popup_765f9549e39d42de9b0de6ce564a465e.setContent(html_2908f836520d40fb9cab89644954fe01);
+        
+
+        circle_marker_f73b4d3856ef482d88827f3de8903aff.bindPopup(popup_765f9549e39d42de9b0de6ce564a465e)
+        ;
+
+        
+    
+    
+            var circle_marker_bedfabe3dc4a401788f9450934bcea98 = L.circleMarker(
+                [-22.932205800000002, -43.1814251],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_1f8860e8ab474b7a96d85c380320116e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc25dd76f43f44b9bdf9f3ee4827811e = $(`<div id="html_bc25dd76f43f44b9bdf9f3ee4827811e" style="width: 100.0%; height: 100.0%;">Place: Laranjeiras<br>State: Rio de Janeiro<br>Price: BRL1000000.0<br>SqM: 150<br>XY: -22.932205800000002,-43.1814251<br>ID: adb94fd097676019a78f545e42dcd848f311ad4d<br></div>`)[0];
+            popup_1f8860e8ab474b7a96d85c380320116e.setContent(html_bc25dd76f43f44b9bdf9f3ee4827811e);
+        
+
+        circle_marker_bedfabe3dc4a401788f9450934bcea98.bindPopup(popup_1f8860e8ab474b7a96d85c380320116e)
+        ;
+
+        
+    
+    
+            var circle_marker_24a2d6c4cd2d461baaa1f8443935a302 = L.circleMarker(
+                [-22.9327814, -43.18160770000001],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_165b06ee91f44106be67720f8b195a8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0506c176692f48dcb7f6e8bbf15712f1 = $(`<div id="html_0506c176692f48dcb7f6e8bbf15712f1" style="width: 100.0%; height: 100.0%;">Place: Laranjeiras<br>State: Rio de Janeiro<br>Price: BRL2500000.0<br>SqM: 238<br>XY: -22.9327814,-43.18160770000001<br>ID: 65469e7c3a3a82bd33680c02d514a61fdb4cfde6<br></div>`)[0];
+            popup_165b06ee91f44106be67720f8b195a8e.setContent(html_0506c176692f48dcb7f6e8bbf15712f1);
+        
+
+        circle_marker_24a2d6c4cd2d461baaa1f8443935a302.bindPopup(popup_165b06ee91f44106be67720f8b195a8e)
+        ;
+
+        
+    
+    
+            var circle_marker_50565a8763ba45f994e4e431b5ccde98 = L.circleMarker(
+                [-22.9358141, -43.191194200000005],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_586cb893d30b44e094e9496932d779a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3942cbc455d941e5a98c9dab463d24cd = $(`<div id="html_3942cbc455d941e5a98c9dab463d24cd" style="width: 100.0%; height: 100.0%;">Place: Laranjeiras<br>State: Rio de Janeiro<br>Price: BRL2000000.0<br>SqM: 323<br>XY: -22.9358141,-43.191194200000005<br>ID: 16d99aa059f466e39fea0951c22b2e272c61dd83<br></div>`)[0];
+            popup_586cb893d30b44e094e9496932d779a7.setContent(html_3942cbc455d941e5a98c9dab463d24cd);
+        
+
+        circle_marker_50565a8763ba45f994e4e431b5ccde98.bindPopup(popup_586cb893d30b44e094e9496932d779a7)
+        ;
+
+        
+    
+    
+            var circle_marker_8ccd8256c0a14dd4872dff27d1b59dfe = L.circleMarker(
+                [-22.9361659, -43.190805600000004],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_332e2b00dd764d35ad665238303408f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a67f885f025d4cfe91c497a83bb66772 = $(`<div id="html_a67f885f025d4cfe91c497a83bb66772" style="width: 100.0%; height: 100.0%;">Place: Laranjeiras<br>State: Rio de Janeiro<br>Price: BRL2663000.0<br>SqM: 671<br>XY: -22.9361659,-43.190805600000004<br>ID: d948e06bf8fe71e7004212d28410b942e1cfda68<br></div>`)[0];
+            popup_332e2b00dd764d35ad665238303408f9.setContent(html_a67f885f025d4cfe91c497a83bb66772);
+        
+
+        circle_marker_8ccd8256c0a14dd4872dff27d1b59dfe.bindPopup(popup_332e2b00dd764d35ad665238303408f9)
+        ;
+
+        
+    
+    
+            var circle_marker_c241966934cd46778ed33b7dbd8f81fc = L.circleMarker(
+                [-22.9365292, -43.198257700000006],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_3e46bd9fc03343f1b6eeee8b0f631813 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf1254e413b4493caba3f4ff0fd9e3ca = $(`<div id="html_bf1254e413b4493caba3f4ff0fd9e3ca" style="width: 100.0%; height: 100.0%;">Place: Laranjeiras<br>State: Rio de Janeiro<br>Price: BRL2000000.0<br>SqM: 293<br>XY: -22.9365292,-43.198257700000006<br>ID: fb8c4ae7d324cc54a0c6a8ef2857536b2cf722a8<br></div>`)[0];
+            popup_3e46bd9fc03343f1b6eeee8b0f631813.setContent(html_bf1254e413b4493caba3f4ff0fd9e3ca);
+        
+
+        circle_marker_c241966934cd46778ed33b7dbd8f81fc.bindPopup(popup_3e46bd9fc03343f1b6eeee8b0f631813)
+        ;
+
+        
+    
+    
+            var circle_marker_97c8e754ae7e4f1ea76eca82fd120610 = L.circleMarker(
+                [-22.9375836, -43.1930045],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_cb9f1715443f40559bbbf58510bd1fe0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc6f65c8d8c04d1abe2bf70133fa4b53 = $(`<div id="html_cc6f65c8d8c04d1abe2bf70133fa4b53" style="width: 100.0%; height: 100.0%;">Place: Laranjeiras<br>State: Rio de Janeiro<br>Price: BRL2600000.0<br>SqM: 280<br>XY: -22.9375836,-43.1930045<br>ID: 8056f9873413f5b79aa3110598f1a5de751085e0<br></div>`)[0];
+            popup_cb9f1715443f40559bbbf58510bd1fe0.setContent(html_cc6f65c8d8c04d1abe2bf70133fa4b53);
+        
+
+        circle_marker_97c8e754ae7e4f1ea76eca82fd120610.bindPopup(popup_cb9f1715443f40559bbbf58510bd1fe0)
+        ;
+
+        
+    
+    
+            var circle_marker_fa2def4103ae41909960b9d716f75415 = L.circleMarker(
+                [-22.9411503, -43.1933864],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_0ff40e44f38e4a4284851491fcb0a878 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1fc6bd913c8438aacd82be5ff0ad7f8 = $(`<div id="html_b1fc6bd913c8438aacd82be5ff0ad7f8" style="width: 100.0%; height: 100.0%;">Place: Laranjeiras<br>State: Rio de Janeiro<br>Price: BRL1800000.0<br>SqM: 226<br>XY: -22.9411503,-43.1933864<br>ID: 4e874d7ea60f343e438ff3529d942672248f740d<br></div>`)[0];
+            popup_0ff40e44f38e4a4284851491fcb0a878.setContent(html_b1fc6bd913c8438aacd82be5ff0ad7f8);
+        
+
+        circle_marker_fa2def4103ae41909960b9d716f75415.bindPopup(popup_0ff40e44f38e4a4284851491fcb0a878)
+        ;
+
+        
+    
+    
+            var circle_marker_9829444f9d2a41fdb3227a02f8759902 = L.circleMarker(
+                [-22.943089899999997, -43.1903929],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_d90f8e9bc7764979ba5677728be05e40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5f596a531c94c1092913f5f2adb8c26 = $(`<div id="html_a5f596a531c94c1092913f5f2adb8c26" style="width: 100.0%; height: 100.0%;">Place: Laranjeiras<br>State: Rio de Janeiro<br>Price: BRL1695000.0<br>SqM: 180<br>XY: -22.943089899999997,-43.1903929<br>ID: 01575c6996f01884aec469eefbffa63afd1cba39<br></div>`)[0];
+            popup_d90f8e9bc7764979ba5677728be05e40.setContent(html_a5f596a531c94c1092913f5f2adb8c26);
+        
+
+        circle_marker_9829444f9d2a41fdb3227a02f8759902.bindPopup(popup_d90f8e9bc7764979ba5677728be05e40)
+        ;
+
+        
+    
+    
+            var circle_marker_36ef1554c6f64621b558b5d0c526db95 = L.circleMarker(
+                [-22.8974075, -43.3572927],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_3dbdcc9c9b214a1c9f2a080c00f8f2ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9ea0ef0f20f46ed96b4c4b1998e0efc = $(`<div id="html_a9ea0ef0f20f46ed96b4c4b1998e0efc" style="width: 100.0%; height: 100.0%;">Place: Praça Seca<br>State: Rio de Janeiro<br>Price: BRL235000.0<br>SqM: 60<br>XY: -22.8974075,-43.3572927<br>ID: 9e2c2e190b534105f7cd330247421baa8101f473<br></div>`)[0];
+            popup_3dbdcc9c9b214a1c9f2a080c00f8f2ae.setContent(html_a9ea0ef0f20f46ed96b4c4b1998e0efc);
+        
+
+        circle_marker_36ef1554c6f64621b558b5d0c526db95.bindPopup(popup_3dbdcc9c9b214a1c9f2a080c00f8f2ae)
+        ;
+
+        
+    
+    
+            var circle_marker_76054ef76c4c455d9fce08f0ad03fe99 = L.circleMarker(
+                [-22.9051557, -43.3490703],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_dc4b2732ce97486c944d49462d001a21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d29d054da3104019a55ec11b2701f004 = $(`<div id="html_d29d054da3104019a55ec11b2701f004" style="width: 100.0%; height: 100.0%;">Place: Praça Seca<br>State: Rio de Janeiro<br>Price: BRL290000.0<br>SqM: 175<br>XY: -22.9051557,-43.3490703<br>ID: 776d537a3b03f2fd3b93662273f925a224906300<br></div>`)[0];
+            popup_dc4b2732ce97486c944d49462d001a21.setContent(html_d29d054da3104019a55ec11b2701f004);
+        
+
+        circle_marker_76054ef76c4c455d9fce08f0ad03fe99.bindPopup(popup_dc4b2732ce97486c944d49462d001a21)
+        ;
+
+        
+    
+    
+            var circle_marker_61a576ae6ee646f993d92cc1096c1abe = L.circleMarker(
+                [-22.8770613, -43.569739299999995],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_13528c3ea667485fb271719ac581a6d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_124b215c680049568e310845c7e7d526 = $(`<div id="html_124b215c680049568e310845c7e7d526" style="width: 100.0%; height: 100.0%;">Place: Campo Grande<br>State: Rio de Janeiro<br>Price: BRL250000.0<br>SqM: 48<br>XY: -22.8770613,-43.569739299999995<br>ID: aeaa98736ed519b9e7cb82dc86f085ac9c060795<br></div>`)[0];
+            popup_13528c3ea667485fb271719ac581a6d7.setContent(html_124b215c680049568e310845c7e7d526);
+        
+
+        circle_marker_61a576ae6ee646f993d92cc1096c1abe.bindPopup(popup_13528c3ea667485fb271719ac581a6d7)
+        ;
+
+        
+    
+    
+            var circle_marker_c016d802857049b38948b8032b1f40e8 = L.circleMarker(
+                [-22.8876885, -43.5468944],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_3af164c9cc3a4e37a8576edaca923bb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f008e3ea430747e0900443699a0ec7b9 = $(`<div id="html_f008e3ea430747e0900443699a0ec7b9" style="width: 100.0%; height: 100.0%;">Place: Campo Grande<br>State: Rio de Janeiro<br>Price: BRL450000.0<br>SqM: 212<br>XY: -22.8876885,-43.5468944<br>ID: db538e0a836a3b3c04332210589241de2ee8dbd3<br></div>`)[0];
+            popup_3af164c9cc3a4e37a8576edaca923bb2.setContent(html_f008e3ea430747e0900443699a0ec7b9);
+        
+
+        circle_marker_c016d802857049b38948b8032b1f40e8.bindPopup(popup_3af164c9cc3a4e37a8576edaca923bb2)
+        ;
+
+        
+    
+    
+            var circle_marker_2b93000f7b6d4f41ba1cd44363d7cda6 = L.circleMarker(
+                [-22.9293333, -43.32112539999999],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_0f036e62800a41c484a001e1061b0b68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_875fc44e9d5a41719e16220a4e67c41c = $(`<div id="html_875fc44e9d5a41719e16220a4e67c41c" style="width: 100.0%; height: 100.0%;">Place: Jacarepaguá<br>State: Rio de Janeiro<br>Price: BRL1480000.0<br>SqM: 323<br>XY: -22.9293333,-43.32112539999999<br>ID: 7af993b4dc78f469912aab1e7f12e5345bd1a367<br></div>`)[0];
+            popup_0f036e62800a41c484a001e1061b0b68.setContent(html_875fc44e9d5a41719e16220a4e67c41c);
+        
+
+        circle_marker_2b93000f7b6d4f41ba1cd44363d7cda6.bindPopup(popup_0f036e62800a41c484a001e1061b0b68)
+        ;
+
+        
+    
+    
+            var circle_marker_58f6c898a4c1460c940fecf82d780bb6 = L.circleMarker(
+                [-22.9234622, -43.21325170000001],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_586b7cc1eea44f4fa9b4216910b40c03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bc1e9a2e78c45c6a470edb5e0b91ede = $(`<div id="html_0bc1e9a2e78c45c6a470edb5e0b91ede" style="width: 100.0%; height: 100.0%;">Place: Rio Comprido<br>State: Rio de Janeiro<br>Price: BRL600000.0<br>SqM: 180<br>XY: -22.9234622,-43.21325170000001<br>ID: dcc2bd9a030b002e490c8dc84a4cb59cc3cb2960<br></div>`)[0];
+            popup_586b7cc1eea44f4fa9b4216910b40c03.setContent(html_0bc1e9a2e78c45c6a470edb5e0b91ede);
+        
+
+        circle_marker_58f6c898a4c1460c940fecf82d780bb6.bindPopup(popup_586b7cc1eea44f4fa9b4216910b40c03)
+        ;
+
+        
+    
+    
+            var circle_marker_3ed1e7b5b7194c479dd165ac4d6ac159 = L.circleMarker(
+                [-22.9159687, -43.1825825],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_0d405b6a9d8d4b0cb510357f331c5257 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f35494542f043c18851667ea8060063 = $(`<div id="html_3f35494542f043c18851667ea8060063" style="width: 100.0%; height: 100.0%;">Place: Santa Teresa<br>State: Rio de Janeiro<br>Price: BRL1200000.0<br>SqM: 360<br>XY: -22.9159687,-43.1825825<br>ID: 7d90f9ba2591a762a31ca124531bb153502a1823<br></div>`)[0];
+            popup_0d405b6a9d8d4b0cb510357f331c5257.setContent(html_3f35494542f043c18851667ea8060063);
+        
+
+        circle_marker_3ed1e7b5b7194c479dd165ac4d6ac159.bindPopup(popup_0d405b6a9d8d4b0cb510357f331c5257)
+        ;
+
+        
+    
+    
+            var circle_marker_0c8552d0eed84828926473ae6f9f1f71 = L.circleMarker(
+                [-22.9184234, -43.190476700000005],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_9e6c9113f33c406b95a78a7b410db06f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3189553a5c04706872f7577f6b107a4 = $(`<div id="html_f3189553a5c04706872f7577f6b107a4" style="width: 100.0%; height: 100.0%;">Place: Santa Teresa<br>State: Rio de Janeiro<br>Price: BRL2200000.0<br>SqM: 141<br>XY: -22.9184234,-43.190476700000005<br>ID: e14a30b1f9318626a9964dacdf9de083f5a94e62<br></div>`)[0];
+            popup_9e6c9113f33c406b95a78a7b410db06f.setContent(html_f3189553a5c04706872f7577f6b107a4);
+        
+
+        circle_marker_0c8552d0eed84828926473ae6f9f1f71.bindPopup(popup_9e6c9113f33c406b95a78a7b410db06f)
+        ;
+
+        
+    
+    
+            var circle_marker_c15c2e86fbed4be2be305b9912882872 = L.circleMarker(
+                [-22.922346700000002, -43.1874711],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_93c36d8f17094c38a567ec41a2e892f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f8da8b7999b41c38b9ed9ae7792129e = $(`<div id="html_8f8da8b7999b41c38b9ed9ae7792129e" style="width: 100.0%; height: 100.0%;">Place: Santa Teresa<br>State: Rio de Janeiro<br>Price: BRL4000000.0<br>SqM: 370<br>XY: -22.922346700000002,-43.1874711<br>ID: db4fe7202414e0985880cb89430d06c3716caf61<br></div>`)[0];
+            popup_93c36d8f17094c38a567ec41a2e892f5.setContent(html_8f8da8b7999b41c38b9ed9ae7792129e);
+        
+
+        circle_marker_c15c2e86fbed4be2be305b9912882872.bindPopup(popup_93c36d8f17094c38a567ec41a2e892f5)
+        ;
+
+        
+    
+    
+            var circle_marker_0df82980d304471faff5c8c1df6b5754 = L.circleMarker(
+                [-22.9229173, -43.1871778],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_797edf27d1274b4488710dfd8db21a10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49422d31ba6742c3a14c42085771cc80 = $(`<div id="html_49422d31ba6742c3a14c42085771cc80" style="width: 100.0%; height: 100.0%;">Place: Santa Teresa<br>State: Rio de Janeiro<br>Price: BRL1750000.0<br>SqM: 246<br>XY: -22.9229173,-43.1871778<br>ID: 15e5b805e0236a79cb05cadff70c4bb73d51eeb6<br></div>`)[0];
+            popup_797edf27d1274b4488710dfd8db21a10.setContent(html_49422d31ba6742c3a14c42085771cc80);
+        
+
+        circle_marker_0df82980d304471faff5c8c1df6b5754.bindPopup(popup_797edf27d1274b4488710dfd8db21a10)
+        ;
+
+        
+    
+    
+            var circle_marker_d14a66906b3e4441aed1d4864cfb20ff = L.circleMarker(
+                [-22.991901000000002, -43.273856],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_7eec552c4a734782b6470afc18091d55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18d19c62711a48e2a797f5e796b144a8 = $(`<div id="html_18d19c62711a48e2a797f5e796b144a8" style="width: 100.0%; height: 100.0%;">Place: São Conrado<br>State: Rio de Janeiro<br>Price: BRL2400000.0<br>SqM: 254<br>XY: -22.991901000000002,-43.273856<br>ID: 4bee7152db983adc35a1f11bd736a94519a8cfa3<br></div>`)[0];
+            popup_7eec552c4a734782b6470afc18091d55.setContent(html_18d19c62711a48e2a797f5e796b144a8);
+        
+
+        circle_marker_d14a66906b3e4441aed1d4864cfb20ff.bindPopup(popup_7eec552c4a734782b6470afc18091d55)
+        ;
+
+        
+    
+    
+            var circle_marker_43bd1f14129f4730bbf915f5f1e4f8ea = L.circleMarker(
+                [-22.991901000000002, -43.273856],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_7faf981d8f4e41b5aca2154484d2e4b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9dae8e5b4f5342b1894951c9a6ba5f20 = $(`<div id="html_9dae8e5b4f5342b1894951c9a6ba5f20" style="width: 100.0%; height: 100.0%;">Place: São Conrado<br>State: Rio de Janeiro<br>Price: BRL2400000.0<br>SqM: 132<br>XY: -22.991901000000002,-43.273856<br>ID: e384df30056ce0b64fcf5af63745e79c72ea71d5<br></div>`)[0];
+            popup_7faf981d8f4e41b5aca2154484d2e4b7.setContent(html_9dae8e5b4f5342b1894951c9a6ba5f20);
+        
+
+        circle_marker_43bd1f14129f4730bbf915f5f1e4f8ea.bindPopup(popup_7faf981d8f4e41b5aca2154484d2e4b7)
+        ;
+
+        
+    
+    
+            var circle_marker_1449815366644a6e876a8548294abe71 = L.circleMarker(
+                [-23.006059699999998, -43.283584000000005],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_60c27b44a44f456c886c2576a2ffcc3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a72830c2e4904a07a3e6e53818241480 = $(`<div id="html_a72830c2e4904a07a3e6e53818241480" style="width: 100.0%; height: 100.0%;">Place: São Conrado<br>State: Rio de Janeiro<br>Price: BRL22000000.0<br>SqM: 7000<br>XY: -23.006059699999998,-43.283584000000005<br>ID: 55570be1af29b5b4e9a071f1f6e78c8ef9147fb1<br></div>`)[0];
+            popup_60c27b44a44f456c886c2576a2ffcc3a.setContent(html_a72830c2e4904a07a3e6e53818241480);
+        
+
+        circle_marker_1449815366644a6e876a8548294abe71.bindPopup(popup_60c27b44a44f456c886c2576a2ffcc3a)
+        ;
+
+        
+    
+    
+            var circle_marker_47d7e9773e644cd7839ea3ab6fa615d1 = L.circleMarker(
+                [-22.999698100000003, -43.2745667],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_255da339bac64bf5b7567a6c7b06df44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1623f20e9b5446518c0e0a20dea4e195 = $(`<div id="html_1623f20e9b5446518c0e0a20dea4e195" style="width: 100.0%; height: 100.0%;">Place: São Conrado<br>State: Rio de Janeiro<br>Price: BRL16000000.0<br>SqM: 1200<br>XY: -22.999698100000003,-43.2745667<br>ID: cb40da119e5cf0378a4eaa18b2d44a35fc323404<br></div>`)[0];
+            popup_255da339bac64bf5b7567a6c7b06df44.setContent(html_1623f20e9b5446518c0e0a20dea4e195);
+        
+
+        circle_marker_47d7e9773e644cd7839ea3ab6fa615d1.bindPopup(popup_255da339bac64bf5b7567a6c7b06df44)
+        ;
+
+        
+    
+    
+            var circle_marker_fa9e86b1a77a465eb933c7b186fbb280 = L.circleMarker(
+                [-22.9449967, -43.357101899999996],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_b22ba9b4147c47b6a72705974cba936b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29be0eae11294aa7b6169d9694c43e7c = $(`<div id="html_29be0eae11294aa7b6169d9694c43e7c" style="width: 100.0%; height: 100.0%;">Place: Cidade de Deus<br>State: Rio de Janeiro<br>Price: BRL670000.0<br>SqM: 150<br>XY: -22.9449967,-43.357101899999996<br>ID: 4f36f73d47a16422bec85d4295469c9aec6abe3e<br></div>`)[0];
+            popup_b22ba9b4147c47b6a72705974cba936b.setContent(html_29be0eae11294aa7b6169d9694c43e7c);
+        
+
+        circle_marker_fa9e86b1a77a465eb933c7b186fbb280.bindPopup(popup_b22ba9b4147c47b6a72705974cba936b)
+        ;
+
+        
+    
+    
+            var circle_marker_1c84983f9d954e6c92f7e017b4e3b932 = L.circleMarker(
+                [-22.9450692, -43.3569506],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_cc93cb988ec642b3aee34495e862eb32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c25b4fd1d33b405e8e2444414cd0d116 = $(`<div id="html_c25b4fd1d33b405e8e2444414cd0d116" style="width: 100.0%; height: 100.0%;">Place: Cidade de Deus<br>State: Rio de Janeiro<br>Price: BRL570000.0<br>SqM: 87<br>XY: -22.9450692,-43.3569506<br>ID: 05bae7df0804af2fdb85e3fc56497d59fb6e968e<br></div>`)[0];
+            popup_cc93cb988ec642b3aee34495e862eb32.setContent(html_c25b4fd1d33b405e8e2444414cd0d116);
+        
+
+        circle_marker_1c84983f9d954e6c92f7e017b4e3b932.bindPopup(popup_cc93cb988ec642b3aee34495e862eb32)
+        ;
+
+        
+    
+    
+            var circle_marker_f90481ef88b6470fa0ed80b05bd6584d = L.circleMarker(
+                [-22.8095957, -43.193226200000005],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_3f7513b65731489d9c193beb9cb7b91f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54e6a94e572347189d00623557342a2f = $(`<div id="html_54e6a94e572347189d00623557342a2f" style="width: 100.0%; height: 100.0%;">Place: Jardim Carioca<br>State: Rio de Janeiro<br>Price: BRL615000.0<br>SqM: 122<br>XY: -22.8095957,-43.193226200000005<br>ID: 6bf342327a5e92305ccf87d5823a894546cf6ff8<br></div>`)[0];
+            popup_3f7513b65731489d9c193beb9cb7b91f.setContent(html_54e6a94e572347189d00623557342a2f);
+        
+
+        circle_marker_f90481ef88b6470fa0ed80b05bd6584d.bindPopup(popup_3f7513b65731489d9c193beb9cb7b91f)
+        ;
+
+        
+    
+    
+            var circle_marker_936073d7deb44c8ab409c5193a253f06 = L.circleMarker(
+                [-22.987018, -43.379269],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_643b8737c78147b9ab95da119686ad6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84fe943af4c64dfcb6f72fdc52fa536f = $(`<div id="html_84fe943af4c64dfcb6f72fdc52fa536f" style="width: 100.0%; height: 100.0%;">Place: Barra da Tijuca<br>State: Rio de Janeiro<br>Price: BRL5900000.0<br>SqM: 760<br>XY: -22.987018,-43.379269<br>ID: 03b936ca093a344d3813207252055f58015c5c36<br></div>`)[0];
+            popup_643b8737c78147b9ab95da119686ad6e.setContent(html_84fe943af4c64dfcb6f72fdc52fa536f);
+        
+
+        circle_marker_936073d7deb44c8ab409c5193a253f06.bindPopup(popup_643b8737c78147b9ab95da119686ad6e)
+        ;
+
+        
+    
+    
+            var circle_marker_86107f67bd6a49d1a791539d1490a2b4 = L.circleMarker(
+                [-23.000370899999997, -43.365895],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_59f4a30541ba4b078155d9d9ce73dafd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_729bb1e6281148bab93e447cc7f89bcd = $(`<div id="html_729bb1e6281148bab93e447cc7f89bcd" style="width: 100.0%; height: 100.0%;">Place: Barra da Tijuca<br>State: Rio de Janeiro<br>Price: BRL5700000.0<br>SqM: 600<br>XY: -23.000370899999997,-43.365895<br>ID: 766e2eba2db2d1af35a5f54c54846e6e06e4c9a9<br></div>`)[0];
+            popup_59f4a30541ba4b078155d9d9ce73dafd.setContent(html_729bb1e6281148bab93e447cc7f89bcd);
+        
+
+        circle_marker_86107f67bd6a49d1a791539d1490a2b4.bindPopup(popup_59f4a30541ba4b078155d9d9ce73dafd)
+        ;
+
+        
+    
+    
+            var circle_marker_516b1c4a66cf417bb3400215341fe14c = L.circleMarker(
+                [-23.003483, -43.3839916],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_52a4fbb2fc5c4c5d92cd8abfcdf7e987 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c988948a67604ce694688962172738a5 = $(`<div id="html_c988948a67604ce694688962172738a5" style="width: 100.0%; height: 100.0%;">Place: Barra da Tijuca<br>State: Rio de Janeiro<br>Price: BRL4500000.0<br>SqM: 925<br>XY: -23.003483,-43.3839916<br>ID: ddc43f03ff1dced6ade2e8932331154aa34a15b5<br></div>`)[0];
+            popup_52a4fbb2fc5c4c5d92cd8abfcdf7e987.setContent(html_c988948a67604ce694688962172738a5);
+        
+
+        circle_marker_516b1c4a66cf417bb3400215341fe14c.bindPopup(popup_52a4fbb2fc5c4c5d92cd8abfcdf7e987)
+        ;
+
+        
+    
+    
+            var circle_marker_ee24e5bbb1d44a97a6228b1ee3282aff = L.circleMarker(
+                [-22.995064399999997, -43.4142377],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_4c80c03e68694bfc8e138ae6b767f99b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93ccc6f095d54923b6603f49fa4dce06 = $(`<div id="html_93ccc6f095d54923b6603f49fa4dce06" style="width: 100.0%; height: 100.0%;">Place: Barra da Tijuca<br>State: Rio de Janeiro<br>Price: BRL2630000.0<br>SqM: 300<br>XY: -22.995064399999997,-43.4142377<br>ID: 5e65e654fbc8e4a340c06dc1cf8816cac1b75739<br></div>`)[0];
+            popup_4c80c03e68694bfc8e138ae6b767f99b.setContent(html_93ccc6f095d54923b6603f49fa4dce06);
+        
+
+        circle_marker_ee24e5bbb1d44a97a6228b1ee3282aff.bindPopup(popup_4c80c03e68694bfc8e138ae6b767f99b)
+        ;
+
+        
+    
+    
+            var circle_marker_2cd313816b0f49aebe536d8714aefc34 = L.circleMarker(
+                [-22.995064399999997, -43.4142377],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_229dadc324ed438d964ace7efc7a87d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d930b15f58c4825819ad2ddf800728b = $(`<div id="html_9d930b15f58c4825819ad2ddf800728b" style="width: 100.0%; height: 100.0%;">Place: Barra da Tijuca<br>State: Rio de Janeiro<br>Price: BRL2400000.0<br>SqM: 300<br>XY: -22.995064399999997,-43.4142377<br>ID: e6a5513659dbe55973edc00e9032653532d1704f<br></div>`)[0];
+            popup_229dadc324ed438d964ace7efc7a87d4.setContent(html_9d930b15f58c4825819ad2ddf800728b);
+        
+
+        circle_marker_2cd313816b0f49aebe536d8714aefc34.bindPopup(popup_229dadc324ed438d964ace7efc7a87d4)
+        ;
+
+        
+    
+    
+            var circle_marker_8e66ea6efec6488198cd5980cf1f90d4 = L.circleMarker(
+                [-22.995064399999997, -43.4142377],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_4a84758455c044df94f1585f82fbf51c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79b792ebff0f4ecba75d84eddb994f2d = $(`<div id="html_79b792ebff0f4ecba75d84eddb994f2d" style="width: 100.0%; height: 100.0%;">Place: Barra da Tijuca<br>State: Rio de Janeiro<br>Price: BRL1900000.0<br>SqM: 322<br>XY: -22.995064399999997,-43.4142377<br>ID: be367f76cf1c57b4d8b0369ee27123da47b59ae2<br></div>`)[0];
+            popup_4a84758455c044df94f1585f82fbf51c.setContent(html_79b792ebff0f4ecba75d84eddb994f2d);
+        
+
+        circle_marker_8e66ea6efec6488198cd5980cf1f90d4.bindPopup(popup_4a84758455c044df94f1585f82fbf51c)
+        ;
+
+        
+    
+    
+            var circle_marker_0c5ba7d498fc4d0a9f46eaa80c1e4c60 = L.circleMarker(
+                [-22.995064399999997, -43.4142377],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_9f7c364057fc466d9b82bc8efb1e7401 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4aa2d17dbf9b452d91a4595f41a0b788 = $(`<div id="html_4aa2d17dbf9b452d91a4595f41a0b788" style="width: 100.0%; height: 100.0%;">Place: Barra da Tijuca<br>State: Rio de Janeiro<br>Price: BRL2390000.0<br>SqM: 300<br>XY: -22.995064399999997,-43.4142377<br>ID: 92aae18d85af92596d6c1a8413ed7948716d8c0c<br></div>`)[0];
+            popup_9f7c364057fc466d9b82bc8efb1e7401.setContent(html_4aa2d17dbf9b452d91a4595f41a0b788);
+        
+
+        circle_marker_0c5ba7d498fc4d0a9f46eaa80c1e4c60.bindPopup(popup_9f7c364057fc466d9b82bc8efb1e7401)
+        ;
+
+        
+    
+    
+            var circle_marker_297e2f39bad94bd09b4ef6d476e8bf7b = L.circleMarker(
+                [-22.995064399999997, -43.4142377],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_0b7672c9779b4d79aac4e3e9e2044bf9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92e98aa667fb48b199bb02ec1ff93f67 = $(`<div id="html_92e98aa667fb48b199bb02ec1ff93f67" style="width: 100.0%; height: 100.0%;">Place: Barra da Tijuca<br>State: Rio de Janeiro<br>Price: BRL2900000.0<br>SqM: 300<br>XY: -22.995064399999997,-43.4142377<br>ID: 9ded2085986aabadfc87de579b415ff34180b0eb<br></div>`)[0];
+            popup_0b7672c9779b4d79aac4e3e9e2044bf9.setContent(html_92e98aa667fb48b199bb02ec1ff93f67);
+        
+
+        circle_marker_297e2f39bad94bd09b4ef6d476e8bf7b.bindPopup(popup_0b7672c9779b4d79aac4e3e9e2044bf9)
+        ;
+
+        
+    
+    
+            var circle_marker_0c46af6b998f431b8fac511e82182dbd = L.circleMarker(
+                [-23.0120289, -43.436037400000004],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_bd41bd586fa0406cb2e685fcbdcc534c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68c0498e53bb40ee84b11f2079263939 = $(`<div id="html_68c0498e53bb40ee84b11f2079263939" style="width: 100.0%; height: 100.0%;">Place: Barra da Tijuca<br>State: Rio de Janeiro<br>Price: BRL4100000.0<br>SqM: 660<br>XY: -23.0120289,-43.436037400000004<br>ID: 4c6de4dc40e085351604fd64ae13328bb90c30c0<br></div>`)[0];
+            popup_bd41bd586fa0406cb2e685fcbdcc534c.setContent(html_68c0498e53bb40ee84b11f2079263939);
+        
+
+        circle_marker_0c46af6b998f431b8fac511e82182dbd.bindPopup(popup_bd41bd586fa0406cb2e685fcbdcc534c)
+        ;
+
+        
+    
+    
+            var circle_marker_3c66a0caa9584857bf87184e71e4398b = L.circleMarker(
+                [-22.9575529, -43.2083718],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_3e10790fd8694b5391630de7f99f2334 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf940dd5534a41e79dc1b80b2bdbb2dc = $(`<div id="html_cf940dd5534a41e79dc1b80b2bdbb2dc" style="width: 100.0%; height: 100.0%;">Place: Jardim Botânico<br>State: Rio de Janeiro<br>Price: BRL5500000.0<br>SqM: 800<br>XY: -22.9575529,-43.2083718<br>ID: b3fe7e24b49c7a6e93bd7ac76d5768e6d5a6c865<br></div>`)[0];
+            popup_3e10790fd8694b5391630de7f99f2334.setContent(html_cf940dd5534a41e79dc1b80b2bdbb2dc);
+        
+
+        circle_marker_3c66a0caa9584857bf87184e71e4398b.bindPopup(popup_3e10790fd8694b5391630de7f99f2334)
+        ;
+
+        
+    
+    
+            var circle_marker_1b5b3895f382474fb7b22fbda8c46293 = L.circleMarker(
+                [-22.9602424, -43.2049655],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_dc47e89e0f3e4ec380803c41bba75e69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2618ff71f4ff46a3ab39e103e6cd235c = $(`<div id="html_2618ff71f4ff46a3ab39e103e6cd235c" style="width: 100.0%; height: 100.0%;">Place: Jardim Botânico<br>State: Rio de Janeiro<br>Price: BRL2625000.0<br>SqM: 300<br>XY: -22.9602424,-43.2049655<br>ID: 3b89b7634881d251ff54a50c382a43846083ecf6<br></div>`)[0];
+            popup_dc47e89e0f3e4ec380803c41bba75e69.setContent(html_2618ff71f4ff46a3ab39e103e6cd235c);
+        
+
+        circle_marker_1b5b3895f382474fb7b22fbda8c46293.bindPopup(popup_dc47e89e0f3e4ec380803c41bba75e69)
+        ;
+
+        
+    
+    
+            var circle_marker_1df72e99ca3c42678daad70bd5631517 = L.circleMarker(
+                [-22.966651100000004, -43.2308994],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_f15d277698214336b7fa971f193928ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5a3cc2754cd4a29abaa9259b2a2db85 = $(`<div id="html_b5a3cc2754cd4a29abaa9259b2a2db85" style="width: 100.0%; height: 100.0%;">Place: Jardim Botânico<br>State: Rio de Janeiro<br>Price: BRL5350000.0<br>SqM: 300<br>XY: -22.966651100000004,-43.2308994<br>ID: ea2fe448d66f753f452fafc75033bfcdc23b3e45<br></div>`)[0];
+            popup_f15d277698214336b7fa971f193928ac.setContent(html_b5a3cc2754cd4a29abaa9259b2a2db85);
+        
+
+        circle_marker_1df72e99ca3c42678daad70bd5631517.bindPopup(popup_f15d277698214336b7fa971f193928ac)
+        ;
+
+        
+    
+    
+            var circle_marker_fb21724b438a46b0806f66fcab4ed31d = L.circleMarker(
+                [-22.900669600000004, -43.2429055],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_2049ee8cea98429681914b0460c3d260 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5f147c969a54b0cbbc52de920da9c9a = $(`<div id="html_c5f147c969a54b0cbbc52de920da9c9a" style="width: 100.0%; height: 100.0%;">Place: São Francisco Xavier<br>State: Rio de Janeiro<br>Price: BRL460000.0<br>SqM: 85<br>XY: -22.900669600000004,-43.2429055<br>ID: bd033efa62ddb1b2f481a63b3febf923a577bb82<br></div>`)[0];
+            popup_2049ee8cea98429681914b0460c3d260.setContent(html_c5f147c969a54b0cbbc52de920da9c9a);
+        
+
+        circle_marker_fb21724b438a46b0806f66fcab4ed31d.bindPopup(popup_2049ee8cea98429681914b0460c3d260)
+        ;
+
+        
+    
+    
+            var circle_marker_998602f4db594bcbb75202e37c9593ca = L.circleMarker(
+                [-22.941095, -43.31498],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_644951ddbd014e8092a86e536460fe83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f7de13c40984cb785fbbc64b6806013 = $(`<div id="html_5f7de13c40984cb785fbbc64b6806013" style="width: 100.0%; height: 100.0%;">Place: Freguesia (Jacarepaguá)<br>State: Rio de Janeiro<br>Price: BRL950000.0<br>SqM: 122<br>XY: -22.941095,-43.31498<br>ID: 288e6515f414970818443ba6855646a2b0d5eb34<br></div>`)[0];
+            popup_644951ddbd014e8092a86e536460fe83.setContent(html_5f7de13c40984cb785fbbc64b6806013);
+        
+
+        circle_marker_998602f4db594bcbb75202e37c9593ca.bindPopup(popup_644951ddbd014e8092a86e536460fe83)
+        ;
+
+        
+    
+    
+            var circle_marker_4e02e67f176b44bfae1cf484e5db8525 = L.circleMarker(
+                [-23.019265, -43.48928],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_43f4cea36ee94402a501524c984b9980 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7365295c535a45f1bbb0d97886cc6808 = $(`<div id="html_7365295c535a45f1bbb0d97886cc6808" style="width: 100.0%; height: 100.0%;">Place: Recreio dos Bandeirantes<br>State: Rio de Janeiro<br>Price: BRL1800000.0<br>SqM: 160<br>XY: -23.019265,-43.48928<br>ID: 38785d4f4e5c39003ec15193ea601b5579bf5b45<br></div>`)[0];
+            popup_43f4cea36ee94402a501524c984b9980.setContent(html_7365295c535a45f1bbb0d97886cc6808);
+        
+
+        circle_marker_4e02e67f176b44bfae1cf484e5db8525.bindPopup(popup_43f4cea36ee94402a501524c984b9980)
+        ;
+
+        
+    
+    
+            var circle_marker_d5f2c7268d32415d9daf4fcfd0dc6d93 = L.circleMarker(
+                [-23.019265, -43.48928],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_40e570dd61504bebad9f424a8ecf4e3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8aa0efb97b64400a822627401115d25c = $(`<div id="html_8aa0efb97b64400a822627401115d25c" style="width: 100.0%; height: 100.0%;">Place: Recreio dos Bandeirantes<br>State: Rio de Janeiro<br>Price: BRL1500000.0<br>SqM: 420<br>XY: -23.019265,-43.48928<br>ID: f3128d9f02f59259b9209cd339985de7ad3fad72<br></div>`)[0];
+            popup_40e570dd61504bebad9f424a8ecf4e3a.setContent(html_8aa0efb97b64400a822627401115d25c);
+        
+
+        circle_marker_d5f2c7268d32415d9daf4fcfd0dc6d93.bindPopup(popup_40e570dd61504bebad9f424a8ecf4e3a)
+        ;
+
+        
+    
+    
+            var circle_marker_596e773a87de4185811a8da452c3a77d = L.circleMarker(
+                [-23.019265, -43.48928],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_5f415072dd9e4b4eb6d2c1f20cb0e66e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8dc11bf04a54609a34192579e312ebc = $(`<div id="html_c8dc11bf04a54609a34192579e312ebc" style="width: 100.0%; height: 100.0%;">Place: Recreio dos Bandeirantes<br>State: Rio de Janeiro<br>Price: BRL1800000.0<br>SqM: 150<br>XY: -23.019265,-43.48928<br>ID: 1dc9d0bcb7445f02f5d6c3f6cd65806e4db866b7<br></div>`)[0];
+            popup_5f415072dd9e4b4eb6d2c1f20cb0e66e.setContent(html_c8dc11bf04a54609a34192579e312ebc);
+        
+
+        circle_marker_596e773a87de4185811a8da452c3a77d.bindPopup(popup_5f415072dd9e4b4eb6d2c1f20cb0e66e)
+        ;
+
+        
+    
+    
+            var circle_marker_12d07792b3d8436289ace2ca821d0058 = L.circleMarker(
+                [-23.019265, -43.48928],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_908241d2f38c47ba9fec239401415bfe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4af8a2076324c0e96cafcde81764bdb = $(`<div id="html_c4af8a2076324c0e96cafcde81764bdb" style="width: 100.0%; height: 100.0%;">Place: Recreio dos Bandeirantes<br>State: Rio de Janeiro<br>Price: BRL1350000.0<br>SqM: 230<br>XY: -23.019265,-43.48928<br>ID: 62dbff9ea30ddcf9734a20d730fa6875aabab001<br></div>`)[0];
+            popup_908241d2f38c47ba9fec239401415bfe.setContent(html_c4af8a2076324c0e96cafcde81764bdb);
+        
+
+        circle_marker_12d07792b3d8436289ace2ca821d0058.bindPopup(popup_908241d2f38c47ba9fec239401415bfe)
+        ;
+
+        
+    
+    
+            var circle_marker_b9ec4383d82144a186dbc5c19189a741 = L.circleMarker(
+                [-23.010606, -43.474778],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_7bc2c5040e0e412fb7763523691db8a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecb11e0eb9b04e449a67ada9f0213e27 = $(`<div id="html_ecb11e0eb9b04e449a67ada9f0213e27" style="width: 100.0%; height: 100.0%;">Place: Recreio dos Bandeirantes<br>State: Rio de Janeiro<br>Price: BRL1050000.0<br>SqM: 190<br>XY: -23.010606,-43.474778<br>ID: f1d12bc4dbabd8e96a5ba143e704ac8a10581c0d<br></div>`)[0];
+            popup_7bc2c5040e0e412fb7763523691db8a8.setContent(html_ecb11e0eb9b04e449a67ada9f0213e27);
+        
+
+        circle_marker_b9ec4383d82144a186dbc5c19189a741.bindPopup(popup_7bc2c5040e0e412fb7763523691db8a8)
+        ;
+
+        
+    
+    
+            var circle_marker_685667f473324f3eb89effc126557d75 = L.circleMarker(
+                [-23.0150486, -43.484823],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_ac876939688e4cd58d83cf72c958e4d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17d837c692144d7f977695787e4a029b = $(`<div id="html_17d837c692144d7f977695787e4a029b" style="width: 100.0%; height: 100.0%;">Place: Recreio dos Bandeirantes<br>State: Rio de Janeiro<br>Price: BRL750000.0<br>SqM: 280<br>XY: -23.0150486,-43.484823<br>ID: 0d6af97eea9b9de4c0a5c5749fb579d1118862e7<br></div>`)[0];
+            popup_ac876939688e4cd58d83cf72c958e4d0.setContent(html_17d837c692144d7f977695787e4a029b);
+        
+
+        circle_marker_685667f473324f3eb89effc126557d75.bindPopup(popup_ac876939688e4cd58d83cf72c958e4d0)
+        ;
+
+        
+    
+    
+            var circle_marker_f9789bd0c24f48ebbffd4c6070316824 = L.circleMarker(
+                [-23.0169568, -43.4923482],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_5661c05f2c6e42ba8b24938a66b65fb5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a12e0ccbd6ba4e029e2037030a76ff31 = $(`<div id="html_a12e0ccbd6ba4e029e2037030a76ff31" style="width: 100.0%; height: 100.0%;">Place: Recreio dos Bandeirantes<br>State: Rio de Janeiro<br>Price: BRL2100000.0<br>SqM: 390<br>XY: -23.0169568,-43.4923482<br>ID: ecae97bfb6177c458d26743dbd6afb4fe7f202eb<br></div>`)[0];
+            popup_5661c05f2c6e42ba8b24938a66b65fb5.setContent(html_a12e0ccbd6ba4e029e2037030a76ff31);
+        
+
+        circle_marker_f9789bd0c24f48ebbffd4c6070316824.bindPopup(popup_5661c05f2c6e42ba8b24938a66b65fb5)
+        ;
+
+        
+    
+    
+            var circle_marker_9b3b67d3bc1740389dac02ff16b463ae = L.circleMarker(
+                [-23.0169568, -43.4923482],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_82b7e16d768e46178b58d5b5f42163c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f36a674cd2214d3db7ded2f65c721c08 = $(`<div id="html_f36a674cd2214d3db7ded2f65c721c08" style="width: 100.0%; height: 100.0%;">Place: Recreio dos Bandeirantes<br>State: Rio de Janeiro<br>Price: BRL1500000.0<br>SqM: 300<br>XY: -23.0169568,-43.4923482<br>ID: 86a6455958b6a00cab10c6731d5f292927f687c2<br></div>`)[0];
+            popup_82b7e16d768e46178b58d5b5f42163c5.setContent(html_f36a674cd2214d3db7ded2f65c721c08);
+        
+
+        circle_marker_9b3b67d3bc1740389dac02ff16b463ae.bindPopup(popup_82b7e16d768e46178b58d5b5f42163c5)
+        ;
+
+        
+    
+    
+            var circle_marker_e1a3414bcae34997ace04e65c9310174 = L.circleMarker(
+                [-23.0169568, -43.4923482],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_04ddce7a663c4551b58f61ea08fe5f52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25db07598f0f4f68aca429d362edeafc = $(`<div id="html_25db07598f0f4f68aca429d362edeafc" style="width: 100.0%; height: 100.0%;">Place: Recreio dos Bandeirantes<br>State: Rio de Janeiro<br>Price: BRL3000000.0<br>SqM: 380<br>XY: -23.0169568,-43.4923482<br>ID: 60358f9b212cee5df59b00155905bed6ddcc8f44<br></div>`)[0];
+            popup_04ddce7a663c4551b58f61ea08fe5f52.setContent(html_25db07598f0f4f68aca429d362edeafc);
+        
+
+        circle_marker_e1a3414bcae34997ace04e65c9310174.bindPopup(popup_04ddce7a663c4551b58f61ea08fe5f52)
+        ;
+
+        
+    
+    
+            var circle_marker_9af54ab7341a46b3a9c7f848cf0e3cca = L.circleMarker(
+                [-23.0169568, -43.4923482],
+                {"bubblingMouseEvents": true, "color": "b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_df979d4bf28945888310f170ee8e098b);
+        
+    
+        var popup_44c3736e66c649ff9ac98d463eacca97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53ab2ed9f2e24aa1b845bb2918e24231 = $(`<div id="html_53ab2ed9f2e24aa1b845bb2918e24231" style="width: 100.0%; height: 100.0%;">Place: Recreio dos Bandeirantes<br>State: Rio de Janeiro<br>Price: BRL2000000.0<br>SqM: 225<br>XY: -23.0169568,-43.4923482<br>ID: 8405afba2e608ddeff5ea400f5b8fa39d8f637a7<br></div>`)[0];
+            popup_44c3736e66c649ff9ac98d463eacca97.setContent(html_53ab2ed9f2e24aa1b845bb2918e24231);
+        
+
+        circle_marker_9af54ab7341a46b3a9c7f848cf0e3cca.bindPopup(popup_44c3736e66c649ff9ac98d463eacca97)
+        ;
+
+        
+    
+</script>
