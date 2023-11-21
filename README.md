@@ -1,2 +1,17 @@
 # Brazil-Real-Estate-2018-Challenge
-An internship challenge from Thinking Machines to perform EDA and additional applied knowledge on a Brazil Real Estate dataset from a public table in BigQuery
+A 2021 internship challenge from Thinking Machines to perform EDA and additional applied knowledge on a Brazil Real Estate dataset from a public table in BigQuery.
+
+## About the Data
+Dataset origin: properati-data-public.properties_br
+Time Frame: Jan. 2015 to Feb. 2018
+
+## Contents
+1.) Exploratory Data Analysis - can be found in the powerpoint file along with the drawn conclusions.
+
+2.) Inter Active Folium Map for Apartments and Houses for Sale
+![LEGEND Image](https://github.com/vincemisalucha/Brazil-Real-Estate-2018-Challenge/blob/main/LEGEND.png)
+
+3.) Neural Network Regression - predicting the price of the property. Trained from the Feb. 2018 data and located in BR_NN_Regression.ipynb. This is intended for possible listers wishing to gauge the value of their property.
+
+
+
