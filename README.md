@@ -13,6 +13,7 @@ A 2021 internship challenge from Thinking Machines to perform EDA and additional
 ![LEGEND Image](https://github.com/vincemisalucha/Brazil-Real-Estate-2018-Challenge/blob/main/assets/LEGEND.png)
 
 3.) Neural Network Regression - predicting the price of the property. Trained from the Feb. 2018 data and located in BR_NN_Regression.ipynb. This is intended for possible listers wishing to gauge the value of their property.
+<br> Limitation and Recommendations: One notable limitation stems from time constraints, as the model was trained without the ability to incorporate the entire dataset as a time series. To enhance its performance and applicability to temporal patterns, future iterations should consider dedicating more time to training on the complete dataset.
 ![NN Image](https://github.com/vincemisalucha/Brazil-Real-Estate-2018-Challenge/blob/main/assets/NN.PNG)
 
 
